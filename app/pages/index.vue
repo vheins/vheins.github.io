@@ -130,64 +130,126 @@ const page = {
   },
   projects: {
     title: 'Featured <span class="text-primary">Projects</span>',
-    description: 'A selection of projects showcasing enterprise solutions, integrations, and innovative applications.',
-    plans: [
+    description: 'A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms.',
+    items: [
       {
-        title: 'ERP Integration Platform',
-        description: 'Seamless integration with Odoo ERP system for enterprise resource planning.',
-        price: 'Enterprise',
-        features: [
-          'Laravel backend with PostgreSQL database',
-          'Real-time data synchronization with Soketi',
-          'Vue.js dashboard for monitoring and control',
-          'Docker containerization for easy deployment',
-          'RESTful API with comprehensive documentation',
-          'Automated testing and CI/CD pipeline'
-        ],
-        button: {
-          label: 'View Details',
-          color: 'neutral',
-          variant: 'outline',
-          to: '#'
-        }
+        title: 'IDS Starter Kit',
+        description: 'The FullStack Application Starter Kit utilizes the Laravel framework, VueJS, UI Kit, and is Docker-friendly. This comprehensive starter kit provides developers with a solid foundation to kickstart full-stack application development.',
+        period: 'Jun 2022 - Present',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-box'
       },
       {
-        title: 'AI-Driven Dashboard',
-        description: 'Intelligent analytics platform with AI-powered insights and predictions.',
-        price: 'Innovation',
-        highlight: true,
-        features: [
-          'Laravel Octane for high-performance API',
-          'Vue.js with real-time data visualization',
-          'Redis caching for optimal performance',
-          'PostgreSQL with advanced analytics queries',
-          'Machine learning integration',
-          'Responsive design for all devices'
-        ],
-        button: {
-          label: 'View Details',
-          variant: 'subtle',
-          to: '#'
-        }
+        title: 'Sistem Absensi dan Laporan Terintegrasi (Sakti)',
+        description: 'Designed for PT Pesonna Optima Jasa to manage employee attendance records, utilizing technologies like DeepFace for facial recognition to ensure accurate clock-in/out procedures and generating integrated reports.',
+        period: 'May 2024 - Jul 2025',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-fingerprint'
       },
       {
-        title: 'Scalable Infrastructure',
-        description: 'High-availability deployment architecture for mission-critical applications.',
-        price: 'DevOps',
-        features: [
-          'Docker containerization and orchestration',
-          'Nginx reverse proxy with load balancing',
-          'Kong API gateway for microservices',
-          'HAProxy for high availability',
-          'Patroni for PostgreSQL clustering',
-          'Automated monitoring and alerting'
-        ],
-        button: {
-          label: 'View Details',
-          color: 'neutral',
-          variant: 'outline',
-          to: '#'
-        }
+        title: 'Folur Global Platform',
+        description: 'The Food Systems, Land Use, and Restoration (FOLUR) initiative aims to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across 27 countries.',
+        period: 'Jul 2024 - Oct 2024',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-globe'
+      },
+      {
+        title: 'tekMIRA-Uji Profisiensi',
+        description: 'Proficiency testing program to evaluate the performance of participant laboratories in testing coal, coal ash, laterite nickel minerals, bauxite, and iron ore, ensuring compliance with ISO 17025 standards.',
+        period: 'Dec 2023 - Mar 2024',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-flask-conical'
+      },
+      {
+        title: 'Malaria Website with Drupal 9.5',
+        description: 'Developed for UNDP HEART Program to support national efforts in addressing health inequality. Focuses on strengthening the Global Fund for AIDS, Tuberculosis and Malaria (GFATM) Country Coordinating Mechanisms.',
+        period: 'Apr 2023 - Sep 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-simple-icons-drupal'
+      },
+      {
+        title: 'Slide Babel - Sistem Informasi Perikanan',
+        description: 'Fisheries information services platform providing data on Fish Price, Availability, Cultivated Fish Types, Marketing Locations, and Cold Storage Facilities for the Marine and Fisheries Service of Bangka Belitung Province.',
+        period: 'Jul 2023 - Sep 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-fish'
+      },
+      {
+        title: 'Rabbani Web Commerce',
+        description: 'E-commerce platform specializing in Islamic-based products. Designed to provide a convenient and secure shopping experience with features aligning with Islamic values and ethical production practices.',
+        period: 'Nov 2022 - Jun 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-shopping-bag'
+      },
+      {
+        title: 'Clove Analytics Dashboard',
+        description: 'Website Analytic Tool for Clove statistical Research. Features User/Role Management, Subscription Management, and specific statistical modules like Significant Test, Proportion Test, and Brand Maps.',
+        period: 'Jan 2023 - May 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-bar-chart-3'
+      },
+      {
+        title: 'Koni Jabar Atlet Management',
+        description: 'Platform integrating athlete data, training programs, and sports achievements in West Java. A comprehensive source of information for tracking athletes and coaching programs.',
+        period: 'Jun 2022 - May 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-medal'
+      },
+      {
+        title: 'Starsender Plugin for WiseCP',
+        description: 'Seamless integration of WhatsApp API into the WiseCP platform. Enables sending WhatsApp messages directly from the WiseCP dashboard for efficient client communication.',
+        period: 'Apr 2023 - Apr 2023',
+        company: 'Freelance',
+        icon: 'i-simple-icons-whatsapp'
+      },
+      {
+        title: 'Favori App V2',
+        description: 'Information system dashboard for Inacookies internal use. Allows monitoring of sales data, production metrics, inventory levels, and customer feedback with real-time visualization.',
+        period: 'Oct 2022 - Mar 2023',
+        company: 'Inacookies',
+        icon: 'i-lucide-layout'
+      },
+      {
+        title: 'MTRE3 Insentif Surya Atap',
+        description: 'Online platform for Roof Solar Power Incentive (PLTS Atap) grant applications, provided by the Sustainable Energy Fund (SEF) under the MTRE3 project (UNDP & Govt of Indonesia).',
+        period: 'Jun 2022 - Mar 2023',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-sun'
+      },
+      {
+        title: 'Koni Jabar Dashboard',
+        description: 'Dashboard for West Java Sports Resource Data Center. Provides interactive visualizations regarding athletes, training programs, and sporting achievements.',
+        period: 'Jul 2022 - Nov 2022',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-layout-dashboard'
+      },
+      {
+        title: 'Koni Jabar Website',
+        description: 'Maintenance, feature enhancements, and bug fixing for the Koni Jabar website to ensure optimal performance and improved user experience.',
+        period: 'Jul 2022 - Nov 2022',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-monitor'
+      },
+      {
+        title: 'Frozen Food Dashboard & E-Commerce',
+        description: 'Comprehensive system combining e-commerce, warehousing, purchasing, and stocktaking capabilities. Streamlines operations and manages inventory for frozen food retail.',
+        period: 'Nov 2021 - Aug 2022',
+        company: 'Ritel Makanan Beku',
+        icon: 'i-lucide-snowflake'
+      },
+      {
+        title: 'UNDSS Dashboard',
+        description: 'Bug fixing and new feature development for UNDSS Dashboard. Processes incident data into a centralized bank for spatial analysis and risk management.',
+        period: 'Jun 2022 - Jul 2022',
+        company: 'PT. Inovasi Dinamika Solusi',
+        icon: 'i-lucide-shield-alert'
+      },
+      {
+        title: 'Zafaa POS',
+        description: 'Specialized POS application for frozen food retail. Features stock monitoring, card payment integration, and customer management to improve retail efficiency.',
+        period: 'Apr 2022 - Jun 2022',
+        company: 'Ritel Makanan Beku',
+        icon: 'i-lucide-shopping-cart'
       }
     ]
   },
@@ -197,7 +259,7 @@ const page = {
     links: [
       {
         label: 'Get in Touch',
-        to: 'mailto:your.email@example.com',
+        to: 'mailto:m.rheza.alfin@gmail.com',
         trailingIcon: 'i-lucide-mail'
       },
       {
@@ -304,7 +366,7 @@ useSeoMeta({
     </UPageSection>
 
     <UPageSection id="projects" class="mb-32 overflow-hidden" :title="page.projects.title"
-      :description="page.projects.description" :plans="page.projects.plans"
+      :description="page.projects.description"
       :ui="{ title: 'text-left @container relative', description: 'text-left' }">
       <template #title>
         <span v-html="page.projects.title"
@@ -316,12 +378,23 @@ useSeoMeta({
         </div>
       </template>
 
-      <UPricingPlans scale>
-        <UPricingPlan v-for="(plan, index) in page.projects.plans" :key="index" :title="plan.title"
-          :description="plan.description" :price="plan.price" :billing-period="plan.billing_period"
-          :billing-cycle="plan.billing_cycle" :highlight="plan.highlight" :scale="plan.highlight" variant="soft"
-          :features="plan.features" :button="plan.button" />
-      </UPricingPlans>
+      <UPageGrid>
+        <UPageCard v-for="(project, index) in page.projects.items" :key="index" :title="project.title"
+          :description="project.description" :icon="project.icon">
+          <template #footer>
+            <div class="flex flex-col gap-1 text-sm text-gray-500 dark:text-gray-400">
+              <div class="flex items-center gap-2">
+                <UIcon name="i-lucide-calendar" class="w-4 h-4" />
+                <span>{{ project.period }}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <UIcon name="i-lucide-building-2" class="w-4 h-4" />
+                <span>{{ project.company }}</span>
+              </div>
+            </div>
+          </template>
+        </UPageCard>
+      </UPageGrid>
     </UPageSection>
 
     <USeparator />
