@@ -284,21 +284,31 @@ useSeoMeta({
 })
 
 const stack = [
+  { name: 'PHP', icon: 'i-simple-icons-php', color: 'hover:text-[#777BB4]' },
   { name: 'Laravel', icon: 'i-simple-icons-laravel', color: 'hover:text-[#FF2D20]' },
   { name: 'NestJS', icon: 'i-simple-icons-nestjs', color: 'hover:text-[#E0234E]' },
+  { name: 'Node.js', icon: 'i-simple-icons-nodedotjs', color: 'hover:text-[#339933]' },
+  { name: 'Python', icon: 'i-simple-icons-python', color: 'hover:text-[#3776AB]' },
+  { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs', color: 'hover:text-[#4FC08D]' },
+  { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs', color: 'hover:text-[#00DC82]' },
+  { name: 'Vite', icon: 'i-simple-icons-vite', color: 'hover:text-[#646CFF]' },
+  { name: 'UIkit', icon: 'i-simple-icons-uikit', color: 'hover:text-[#2396F3]' },
+  { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss', color: 'hover:text-[#06B6D4]' },
+  { name: 'Sass', icon: 'i-simple-icons-sass', color: 'hover:text-[#CC6699]' },
+  { name: 'Pinia', icon: 'i-simple-icons-pinia', color: 'hover:text-[#FFD11B]' },
+  { name: 'Axios', icon: 'i-simple-icons-axios', color: 'hover:text-[#5A29E4]' },
   { name: 'PostgreSQL', icon: 'i-simple-icons-postgresql', color: 'hover:text-[#4169E1]' },
   { name: 'MySQL', icon: 'i-simple-icons-mysql', color: 'hover:text-[#4479A1]' },
   { name: 'Redis', icon: 'i-simple-icons-redis', color: 'hover:text-[#DC382D]' },
-  { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs', color: 'hover:text-[#4FC08D]' },
-  { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs', color: 'hover:text-[#00DC82]' },
-  { name: 'Next.js', icon: 'i-simple-icons-nextdotjs', color: 'hover:text-black dark:hover:text-white' },
-  { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss', color: 'hover:text-[#06B6D4]' },
   { name: 'Docker', icon: 'i-simple-icons-docker', color: 'hover:text-[#2496ED]' },
   { name: 'Nginx', icon: 'i-simple-icons-nginx', color: 'hover:text-[#009639]' },
-  { name: 'Kong', icon: 'i-simple-icons-kong', color: 'hover:text-[#003358]' },
-  { name: 'HAProxy', icon: 'i-simple-icons-haproxy', color: 'hover:text-[#243970]' },
-  { name: 'Linux', icon: 'i-simple-icons-linux', color: 'hover:text-[#FCC624]' },
-  { name: 'Odoo', icon: 'i-simple-icons-odoo', color: 'hover:text-[#714B67]' }
+  { name: 'Ubuntu', icon: 'i-simple-icons-ubuntu', color: 'hover:text-[#E95420]' },
+  { name: 'Odoo', icon: 'i-simple-icons-odoo', color: 'hover:text-[#714B67]' },
+  { name: 'Sentry', icon: 'i-simple-icons-sentry', color: 'hover:text-[#362D59]' },
+  { name: 'Pusher', icon: 'i-simple-icons-pusher', color: 'hover:text-[#300D4F]' },
+  { name: 'Leaflet', icon: 'i-simple-icons-leaflet', color: 'hover:text-[#199900]' },
+  { name: 'D3.js', icon: 'i-simple-icons-d3dotjs', color: 'hover:text-[#F9A03C]' },
+  { name: 'JWT', icon: 'i-simple-icons-jsonwebtokens', color: 'hover:text-black dark:hover:text-white' }
 ]
 </script>
 
