@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const page = {
   title: 'From Retail Floors to <span class="text-primary">Cloud Servers</span>',
-  description: 'Full-stack Developer & Team Lead specializing in Laravel, Vue.js, and scalable architectures. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.',
+  description: 'Full-stack Developer & IT Consultant specializing in performance tuning, system integration, and automation. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.',
   hero: {
     links: [
       {
@@ -54,13 +54,13 @@ const page = {
     features: [
       {
         title: 'Backend Development',
-        description: 'Laravel framework with PostgreSQL, MySQL, and Redis for robust, high-performance applications.',
+        description: 'Laravel and NestJS frameworks with PostgreSQL, MySQL, and Redis for robust, high-performance applications.',
         icon: 'i-lucide-server',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
         title: 'Frontend Development',
-        description: 'Vue.js for building clean, reactive user interfaces with modern JavaScript best practices.',
+        description: 'Vue.js, Nuxt, and Next.js for building clean, reactive user interfaces with modern JavaScript best practices.',
         icon: 'i-lucide-layout-dashboard',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
@@ -274,14 +274,32 @@ const page = {
 }
 
 useSeoMeta({
-  title: 'Muhammad Rheza Alfin - Full-stack Developer & Team Lead',
-  ogTitle: 'Muhammad Rheza Alfin - Full-stack Developer & Team Lead',
+  title: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
+  ogTitle: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
   description: page.description,
   ogDescription: page.description,
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
   twitterCard: 'summary_large_image'
 })
+
+const stack = [
+  { name: 'Laravel', icon: 'i-simple-icons-laravel', color: 'hover:text-[#FF2D20]' },
+  { name: 'NestJS', icon: 'i-simple-icons-nestjs', color: 'hover:text-[#E0234E]' },
+  { name: 'PostgreSQL', icon: 'i-simple-icons-postgresql', color: 'hover:text-[#4169E1]' },
+  { name: 'MySQL', icon: 'i-simple-icons-mysql', color: 'hover:text-[#4479A1]' },
+  { name: 'Redis', icon: 'i-simple-icons-redis', color: 'hover:text-[#DC382D]' },
+  { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs', color: 'hover:text-[#4FC08D]' },
+  { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs', color: 'hover:text-[#00DC82]' },
+  { name: 'Next.js', icon: 'i-simple-icons-nextdotjs', color: 'hover:text-black dark:hover:text-white' },
+  { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss', color: 'hover:text-[#06B6D4]' },
+  { name: 'Docker', icon: 'i-simple-icons-docker', color: 'hover:text-[#2496ED]' },
+  { name: 'Nginx', icon: 'i-simple-icons-nginx', color: 'hover:text-[#009639]' },
+  { name: 'Kong', icon: 'i-simple-icons-kong', color: 'hover:text-[#003358]' },
+  { name: 'HAProxy', icon: 'i-simple-icons-haproxy', color: 'hover:text-[#243970]' },
+  { name: 'Linux', icon: 'i-simple-icons-linux', color: 'hover:text-[#FCC624]' },
+  { name: 'Odoo', icon: 'i-simple-icons-odoo', color: 'hover:text-[#714B67]' }
+]
 </script>
 
 <template>
@@ -303,6 +321,23 @@ useSeoMeta({
         <span v-html="page.title" />
       </template>
     </UPageHero>
+
+    <UContainer class="py-8 lg:py-16">
+      <div class="flex flex-col items-center gap-8">
+        <p class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">Powered by my
+          favorite
+          stack</p>
+        <div class="flex flex-wrap justify-center gap-4 lg:gap-8 max-w-4xl">
+          <UTooltip v-for="tech in stack" :key="tech.name" :text="tech.name">
+            <div
+              class="flex items-center justify-center p-3 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50">
+              <UIcon :name="tech.icon" class="w-8 h-8 text-gray-400 dark:text-gray-500 transition-colors duration-200"
+                :class="tech.color" />
+            </div>
+          </UTooltip>
+        </div>
+      </div>
+    </UContainer>
 
     <UPageSection :description="page.section.description" :features="page.section.features" orientation="horizontal"
       :ui="{

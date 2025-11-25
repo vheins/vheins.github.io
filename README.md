@@ -3,11 +3,19 @@
 ### Full-stack Developer & Team Lead 🚀
 *From Retail Floors to Cloud Servers*
 
+**IT Consultant • Performance Tuning • System Integration • Automation**
+
 ---
 
 ## 🌟 About Me
 
 I combine business operations knowledge with technology to deliver solutions that improve real-world processes. With nearly a decade in retail operations, I've honed my analytical thinking and attention to detail, which I now apply to architecting scalable systems and writing clean code.
+
+As an **IT Consultant**, I specialize in **performance tuning, system integration, and automation** to make processes faster and simpler. I work extensively with **Multi-VM environments** and **Reverse Proxies**, optimizing architectures for speed and reliability. I bridge the gap between complex business operations and scalable technical solutions.
+
+- 🔭 I’m currently working as a **Software Development Team Lead** at **PT. Inovasi Dinamika Solusi**.
+- 🌱 I’m currently exploring **Advanced Cloud Architectures** and **AI Integration**.
+- 💬 Ask me about **Laravel, NestJS, Vue.js, Odoo, and High-Availability DevOps**.
 
 - 🔭 I’m currently working as a **Software Development Team Lead** at **PT. Inovasi Dinamika Solusi**.
 - 🌱 I’m currently exploring **Advanced Cloud Architectures** and **AI Integration**.
@@ -20,6 +28,7 @@ I combine business operations knowledge with technology to deliver solutions tha
 
 ### Backend
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
@@ -27,12 +36,17 @@ I combine business operations knowledge with technology to deliver solutions tha
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 ![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82)
+![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Filament](https://img.shields.io/badge/Filament-FAA419?style=for-the-badge&logo=filament&logoColor=white)
 
 ### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Kong](https://img.shields.io/badge/Kong-003459?style=for-the-badge&logo=kong&logoColor=white)
+![HAProxy](https://img.shields.io/badge/HAProxy-023E8A?style=for-the-badge&logo=haproxy&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
 
 ---
 
