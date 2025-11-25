@@ -87,7 +87,7 @@ function onSubmit() {
     <template #right>
       <UButton to="https://github.com/vheins" target="_blank" icon="i-simple-icons-github" aria-label="GitHub Profile"
         color="neutral" variant="ghost" />
-      <UButton to="https://linkedin.com/in/vheins" target="_blank" icon="i-simple-icons-linkedin"
+      <UButton to="https://www.linkedin.com/in/arhez" target="_blank" icon="i-simple-icons-linkedin"
         aria-label="LinkedIn Profile" color="neutral" variant="ghost" />
       <UButton to="mailto:m.rheza.alfin@gmail.com" icon="i-lucide-mail" aria-label="Email" color="neutral"
         variant="ghost" />
