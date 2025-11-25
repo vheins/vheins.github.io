@@ -1,0 +1,150 @@
+seo:
+  title: Vheins - Full-stack Developer & Team Lead
+  description: From retail operations to cloud servers - building scalable solutions with Laravel, Vue.js, and modern DevOps practices.
+title: From Retail Floors to [Cloud Servers]{.text-primary}
+description: Full-stack Developer & Team Lead specializing in Laravel, Vue.js, and scalable architectures. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.
+hero:
+  links:
+    - label: View Projects
+      icon: i-lucide-folder-git-2
+      trailing: true
+      color: primary
+      to: '#projects'
+      size: xl
+    - label: GitHub
+      icon: i-simple-icons-github
+      size: xl
+      color: neutral
+      variant: outline
+      to: https://github.com/vheins
+      target: _blank
+section:
+  title: 'A Journey of [Transformation]{.text-primary}'
+  description: Nearly a decade in retail operations taught me to think analytically, pay attention to detail, and focus on preventing errors and inefficiencies. Today, I apply these same principles to software development.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+    - title: Analytical Thinking
+      description: Trained through years of investigating irregularities and operational misuse at Indomaret Group. I approach every problem systematically, identifying root causes and implementing preventive solutions.
+      class: border-l border-primary pl-4
+    - title: Attention to Detail
+      description: From managing inventory accuracy across multiple stores to writing clean, maintainable code - precision matters. Every line of code, every configuration, every deployment is carefully considered.
+      class: border-l border-default pt-4 pl-4
+    - title: Process Improvement
+      description: Whether optimizing stock reporting workflows or architecting scalable systems, I'm driven by efficiency. I believe technology should solve real problems and improve real processes.
+      class: border-l border-default pt-4 pl-4
+features:
+  title: Technical [Expertise]{.text-primary}
+  description: Building modern, scalable solutions with a focus on performance, maintainability, and real-world impact.
+  features:
+    - title: Backend Development
+      description: Laravel framework with PostgreSQL, MySQL, and Redis for robust, high-performance applications.
+      icon: i-lucide-server
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Frontend Development
+      description: Vue.js for building clean, reactive user interfaces with modern JavaScript best practices.
+      icon: i-lucide-layout-dashboard
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Performance Optimization
+      description: Leveraging Soketi, Octane, and Redis for real-time features and blazing-fast response times.
+      icon: i-lucide-zap
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: DevOps & Infrastructure
+      description: Docker, Nginx, Kong, HAProxy, and Patroni for scalable, reliable deployments and high availability.
+      icon: i-lucide-cloud
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Enterprise Integration
+      description: ERP systems integration with Odoo, building bridges between business operations and technology.
+      icon: i-lucide-workflow
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Team Leadership
+      description: Leading development teams, mentoring developers, and fostering a culture of continuous learning and excellence.
+      icon: i-lucide-users
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+steps:
+  title: My [Journey]{.text-primary}
+  description: From inventory control to cloud infrastructure - every step has built who I am today.
+  items:
+    - title: Indomaret Group (2011-2021)
+      description: Nearly a decade growing from Inventory Control Clerk to Supervisor. Managed stock, reporting accuracy, and logistics across multiple stores while investigating operational irregularities. This experience shaped my analytical mindset and attention to detail.
+      image:
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+    - title: Transition to Tech (2021)
+      description: Made the leap into software development, carrying forward the same principles of efficiency, accuracy, and process improvement. Embraced the challenge of learning new technologies and applying operational knowledge to code.
+      image:
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+    - title: Full-stack Developer & Team Lead (Present)
+      description: Building enterprise solutions with Laravel and Vue.js, leading development teams, and creating AI-driven applications. From ERP integrations to scalable cloud deployments - combining business operations knowledge with cutting-edge technology.
+      image:
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+projects:
+  title: Featured [Projects]{.text-primary}
+  description: A selection of projects showcasing enterprise solutions, integrations, and innovative applications.
+  plans:
+    - title: ERP Integration Platform
+      description: Seamless integration with Odoo ERP system for enterprise resource planning.
+      price: Enterprise
+      features:
+        - Laravel backend with PostgreSQL database
+        - Real-time data synchronization with Soketi
+        - Vue.js dashboard for monitoring and control
+        - Docker containerization for easy deployment
+        - RESTful API with comprehensive documentation
+        - Automated testing and CI/CD pipeline
+      button:
+        label: View Details
+        color: neutral
+        variant: outline
+        to: '#'
+    - title: AI-Driven Dashboard
+      description: Intelligent analytics platform with AI-powered insights and predictions.
+      price: Innovation
+      highlight: true
+      features:
+        - Laravel Octane for high-performance API
+        - Vue.js with real-time data visualization
+        - Redis caching for optimal performance
+        - PostgreSQL with advanced analytics queries
+        - Machine learning integration
+        - Responsive design for all devices
+      button:
+        label: View Details
+        variant: subtle
+        to: '#'
+    - title: Scalable Infrastructure
+      description: High-availability deployment architecture for mission-critical applications.
+      price: DevOps
+      features:
+        - Docker containerization and orchestration
+        - Nginx reverse proxy with load balancing
+        - Kong API gateway for microservices
+        - HAProxy for high availability
+        - Patroni for PostgreSQL clustering
+        - Automated monitoring and alerting
+      button:
+        label: View Details
+        color: neutral
+        variant: outline
+        to: '#'
+cta:
+  title: Let's Build Something [Together]{.text-primary}
+  description: I believe in taking risks, conquering fear, and continuously learning. Whether you have a project in mind or just want to connect, I'd love to hear from you.
+  links:
+    - label: Get in Touch
+      to: 'mailto:your.email@example.com'
+      trailingIcon: i-lucide-mail
+    - label: View GitHub
+      to: 'https://github.com/vheins'
+      target: _blank
+      variant: subtle
+      icon: i-simple-icons-github
