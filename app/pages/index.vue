@@ -283,13 +283,20 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
-const stack = [
-  { name: 'PHP', icon: 'i-simple-icons-php', color: 'hover:text-[#777BB4]' },
+const favoriteStack = [
   { name: 'Laravel', icon: 'i-simple-icons-laravel', color: 'hover:text-[#FF2D20]' },
+  { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs', color: 'hover:text-[#4FC08D]' },
+  { name: 'PostgreSQL', icon: 'i-simple-icons-postgresql', color: 'hover:text-[#4169E1]' },
+  { name: 'Redis', icon: 'i-simple-icons-redis', color: 'hover:text-[#DC382D]' },
+  { name: 'Nginx', icon: 'i-simple-icons-nginx', color: 'hover:text-[#009639]' },
+  { name: 'Debian', icon: 'i-simple-icons-debian', color: 'hover:text-[#E95420]' }
+]
+
+const otherStack = [
+  { name: 'PHP', icon: 'i-simple-icons-php', color: 'hover:text-[#777BB4]' },
   { name: 'NestJS', icon: 'i-simple-icons-nestjs', color: 'hover:text-[#E0234E]' },
   { name: 'Node.js', icon: 'i-simple-icons-nodedotjs', color: 'hover:text-[#339933]' },
   { name: 'Python', icon: 'i-simple-icons-python', color: 'hover:text-[#3776AB]' },
-  { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs', color: 'hover:text-[#4FC08D]' },
   { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs', color: 'hover:text-[#00DC82]' },
   { name: 'Vite', icon: 'i-simple-icons-vite', color: 'hover:text-[#646CFF]' },
   { name: 'UIkit', icon: 'i-simple-icons-uikit', color: 'hover:text-[#2396F3]' },
@@ -297,12 +304,8 @@ const stack = [
   { name: 'Sass', icon: 'i-simple-icons-sass', color: 'hover:text-[#CC6699]' },
   { name: 'Pinia', icon: 'i-simple-icons-pinia', color: 'hover:text-[#FFD11B]' },
   { name: 'Axios', icon: 'i-simple-icons-axios', color: 'hover:text-[#5A29E4]' },
-  { name: 'PostgreSQL', icon: 'i-simple-icons-postgresql', color: 'hover:text-[#4169E1]' },
   { name: 'MySQL', icon: 'i-simple-icons-mysql', color: 'hover:text-[#4479A1]' },
-  { name: 'Redis', icon: 'i-simple-icons-redis', color: 'hover:text-[#DC382D]' },
   { name: 'Docker', icon: 'i-simple-icons-docker', color: 'hover:text-[#2496ED]' },
-  { name: 'Nginx', icon: 'i-simple-icons-nginx', color: 'hover:text-[#009639]' },
-  { name: 'Ubuntu', icon: 'i-simple-icons-ubuntu', color: 'hover:text-[#E95420]' },
   { name: 'Odoo', icon: 'i-simple-icons-odoo', color: 'hover:text-[#714B67]' },
   { name: 'Sentry', icon: 'i-simple-icons-sentry', color: 'hover:text-[#362D59]' },
   { name: 'Pusher', icon: 'i-simple-icons-pusher', color: 'hover:text-[#300D4F]' },
@@ -333,18 +336,35 @@ const stack = [
     </UPageHero>
 
     <UContainer class="py-8 lg:py-16">
-      <div class="flex flex-col items-center gap-8">
-        <p class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">Powered by my
-          favorite
-          stack</p>
-        <div class="flex flex-wrap justify-center gap-4 lg:gap-8 max-w-4xl">
-          <UTooltip v-for="tech in stack" :key="tech.name" :text="tech.name">
-            <div
-              class="flex items-center justify-center p-3 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50">
-              <UIcon :name="tech.icon" class="w-8 h-8 text-gray-400 dark:text-gray-500 transition-colors duration-200"
-                :class="tech.color" />
-            </div>
-          </UTooltip>
+      <div class="flex flex-col items-center gap-12">
+        <!-- Favorite Stack -->
+        <div class="flex flex-col items-center gap-6">
+          <p class="text-sm font-semibold text-primary uppercase tracking-wider">My Core Stack</p>
+          <div class="flex flex-wrap justify-center gap-6 lg:gap-8 max-w-4xl">
+            <UTooltip v-for="tech in favoriteStack" :key="tech.name" :text="tech.name">
+              <div
+                class="flex items-center justify-center p-4 rounded-2xl bg-primary/5 dark:bg-primary/10 ring-2 ring-primary/50 dark:ring-primary/50 shadow-lg shadow-primary/10 hover:scale-110 transition-all duration-300 group">
+                <UIcon :name="tech.icon"
+                  class="w-10 h-10 text-gray-500 dark:text-gray-400 transition-colors duration-200"
+                  :class="tech.color" />
+              </div>
+            </UTooltip>
+          </div>
+        </div>
+
+        <!-- Other Stack -->
+        <div class="flex flex-col items-center gap-6">
+          <p class="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wider">Other Technologies I
+            Use</p>
+          <div class="flex flex-wrap justify-center gap-3 lg:gap-4 max-w-4xl">
+            <UTooltip v-for="tech in otherStack" :key="tech.name" :text="tech.name">
+              <div
+                class="flex items-center justify-center p-2.5 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50">
+                <UIcon :name="tech.icon" class="w-6 h-6 text-gray-400 dark:text-gray-500 transition-colors duration-200"
+                  :class="tech.color" />
+              </div>
+            </UTooltip>
+          </div>
         </div>
       </div>
     </UContainer>
