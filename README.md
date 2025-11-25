@@ -1,62 +1,80 @@
-# Nuxt Landing Template
+# Hi there, I'm Muhammad Rheza Alfin! 👋
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+### Full-stack Developer & Team Lead 🚀
+*From Retail Floors to Cloud Servers*
 
-Use this template to build your own landing page with [Nuxt UI](https://ui.nuxt.com) quickly.
+---
 
-- [Live demo](https://landing-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+## 🌟 About Me
 
-<a href="https://landing-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/landing-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/landing-light.png">
-    <img alt="Nuxt Landing Template" src="https://ui.nuxt.com/assets/templates/nuxt/landing-light.png">
-  </picture>
-</a>
+I combine business operations knowledge with technology to deliver solutions that improve real-world processes. With nearly a decade in retail operations, I've honed my analytical thinking and attention to detail, which I now apply to architecting scalable systems and writing clean code.
 
-## Quick Start
+- 🔭 I’m currently working as a **Software Development Team Lead** at **PT. Inovasi Dinamika Solusi**.
+- 🌱 I’m currently exploring **Advanced Cloud Architectures** and **AI Integration**.
+- 💬 Ask me about **Laravel, Vue.js, and System Architecture**.
+- 📫 How to reach me: [m.rheza.alfin@gmail.com](mailto:m.rheza.alfin@gmail.com)
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/landing
-```
+---
 
-## Deploy your own
+## 🛠️ Tech Stack
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=landing&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Flanding&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Flanding-dark.png&demo-url=https%3A%2F%2Flanding-template.nuxt.dev%2F&demo-title=Nuxt%20Landing%20Template&demo-description=A%20modern%20landing%20page%20template%20powered%20by%20Nuxt%20Content.)
+### Backend
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
 
-## Setup
+### Frontend
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Make sure to install the dependencies:
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-```bash
-pnpm install
-```
+---
 
-## Development Server
+## 💼 Experience
 
-Start the development server on `http://localhost:3000`:
+**PT. Inovasi Dinamika Solusi**  
+*Software Development Team Lead (Jan 2023 - Present)*  
+*Full-stack Developer (Jun 2022 - Jan 2023)*  
+> Leading development teams and building full-stack solutions in Bandung, West Java.
 
-```bash
-pnpm dev
-```
+**Ritel Makanan Beku**  
+*Full-stack Developer (Oct 2021 - Jun 2022)*  
+> Developed web applications and managed digital solutions for retail operations.
 
-## Production
+**PT. Favori Corp Sedaya**  
+*Head Of Sales Operations (Aug 2020 - Oct 2021)*  
+> Managed sales operations and optimized business processes.
 
-Build the application for production:
+**Indomaret Group**  
+*Inventory Control Supervisor (Aug 2016 - Mar 2019)*  
+> Nearly a decade of experience in inventory management, logistics, and operational analysis.
 
-```bash
-pnpm build
-```
+---
 
-Locally preview production build:
+## 🚀 Featured Projects
 
-```bash
-pnpm preview
-```
+| Project                   | Description                                                                                            | Tech                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- |
+| **IDS Starter Kit**       | FullStack Application Starter Kit utilizing Laravel, VueJS, UI Kit, and Docker.                        | Laravel, Vue, Docker  |
+| **Sakti**                 | Employee attendance system with facial recognition (DeepFace) for PT Pesonna Optima Jasa.              | DeepFace, Integration |
+| **Folur Global Platform** | Platform for the Food Systems, Land Use, and Restoration (FOLUR) initiative across 27 countries.       | Web Platform          |
+| **Rabbani Web Commerce**  | E-commerce platform specializing in Islamic-based products with ethical production practices.          | E-commerce            |
+| **Clove Analytics**       | Website Analytic Tool with modules for Significant Test, Proportion Test, and Brand Maps.              | Analytics             |
+| **Zafaa POS**             | Specialized POS application for frozen food retail with stock monitoring and card payment integration. | POS, Retail           |
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
 
-## Renovate integration
+## 📊 GitHub Stats
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+![Rheza's GitHub stats](https://github-readme-stats.vercel.app/api?username=vheins&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vheins&layout=compact&theme=radical)
+
+---
+
+[Website](https://vheins.github.io) • [GitHub](https://github.com/vheins)
