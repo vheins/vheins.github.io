@@ -274,8 +274,8 @@ const page = {
 }
 
 useSeoMeta({
-  title: 'Vheins - Full-stack Developer & Team Lead',
-  ogTitle: 'Vheins - Full-stack Developer & Team Lead',
+  title: 'Muhammad Rheza Alfin - Full-stack Developer & Team Lead',
+  ogTitle: 'Muhammad Rheza Alfin - Full-stack Developer & Team Lead',
   description: page.description,
   ogDescription: page.description,
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
@@ -337,33 +337,7 @@ useSeoMeta({
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
-    <UPageSection id="steps" :description="page.steps.description" class="relative overflow-hidden">
-      <template #headline>
-        <UColorModeImage light="/images/light/line-3.svg" dark="/images/dark/line-3.svg"
-          class="absolute -top-10 sm:top-0 right-1/2 h-24" />
-      </template>
-      <template #title>
-        <span v-html="page.steps.title"
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" />
-      </template>
-
-      <template #features>
-        <UPageCard v-for="(step, index) in page.steps.items" :key="index" class="group"
-          :ui="{ container: 'p-4 sm:p-4', title: 'flex items-center gap-1' }">
-          <UColorModeImage v-if="step.image" :light="step.image?.light" :dark="step.image?.dark" :alt="step.title"
-            class="size-full" />
-
-          <div class="flex flex-col gap-2">
-            <span class="text-lg font-semibold">
-              {{ step.title }}
-            </span>
-            <span class="text-sm text-muted">
-              {{ step.description }}
-            </span>
-          </div>
-        </UPageCard>
-      </template>
-    </UPageSection>
+    <HomeJourney id="steps" />
 
     <UPageSection id="projects" class="mb-32 overflow-hidden" :title="page.projects.title"
       :description="page.projects.description"

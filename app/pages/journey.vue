@@ -74,7 +74,7 @@ const experience = [
 ]
 
 useSeoMeta({
-    title: 'Journey - Vheins',
+    title: 'Journey - Muhammad Rheza Alfin',
     description: 'My professional journey and career milestones.'
 })
 </script>

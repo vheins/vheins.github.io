@@ -242,8 +242,8 @@ const projects = [
 ]
 
 useSeoMeta({
-  title: 'Projects - Vheins',
-  description: 'A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms.'
+  title: 'Projects - Muhammad Rheza Alfin',
+  description: 'A collection of my projects and technical achievements.'
 })
 </script>
 

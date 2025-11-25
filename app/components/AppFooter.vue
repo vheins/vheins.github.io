@@ -2,13 +2,17 @@
 const columns = [{
   label: 'Navigation',
   children: [{
-    label: 'About'
+    label: 'About',
+    to: '/#steps'
   }, {
-    label: 'Skills'
+    label: 'Skills',
+    to: '/#features'
   }, {
-    label: 'Projects'
+    label: 'Projects',
+    to: '/projects'
   }, {
-    label: 'Contact'
+    label: 'Contact',
+    to: 'mailto:m.rheza.alfin@gmail.com'
   }]
 }, {
   label: 'Technologies',
@@ -24,11 +28,16 @@ const columns = [{
 }, {
   label: 'Connect',
   children: [{
-    label: 'GitHub'
+    label: 'GitHub',
+    to: 'https://github.com/vheins',
+    target: '_blank'
   }, {
-    label: 'LinkedIn'
+    label: 'LinkedIn',
+    to: 'https://www.linkedin.com/in/arhez',
+    target: '_blank'
   }, {
-    label: 'Email'
+    label: 'Email',
+    to: 'mailto:m.rheza.alfin@gmail.com'
   }]
 }]
 
@@ -71,7 +80,7 @@ function onSubmit() {
 
     <template #left>
       <p class="text-sm text-muted">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }} Vheins
+        Built with Nuxt UI • © {{ new Date().getFullYear() }} Muhammad Rheza Alfin
       </p>
     </template>
 
@@ -80,7 +89,7 @@ function onSubmit() {
         color="neutral" variant="ghost" />
       <UButton to="https://linkedin.com/in/vheins" target="_blank" icon="i-simple-icons-linkedin"
         aria-label="LinkedIn Profile" color="neutral" variant="ghost" />
-      <UButton to="mailto:your.email@example.com" icon="i-lucide-mail" aria-label="Email" color="neutral"
+      <UButton to="mailto:m.rheza.alfin@gmail.com" icon="i-lucide-mail" aria-label="Email" color="neutral"
         variant="ghost" />
     </template>
   </UFooter>

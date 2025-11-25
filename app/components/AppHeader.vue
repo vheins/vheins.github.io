@@ -34,21 +34,21 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
   <UHeader>
     <template #left>
       <NuxtLink to="/">
-        Vheins
+        Muhammad Rheza Alfin
       </NuxtLink>
     </template>
 
     <template #right>
       <UNavigationMenu :items="items" variant="link" class="hidden lg:block" />
 
-      <UButton label="Contact" variant="subtle" to="mailto:your.email@example.com" class="hidden lg:block" />
+      <UButton label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" class="hidden lg:block" />
 
       <UColorModeButton />
     </template>
 
     <template #body>
       <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
-      <UButton class="mt-4" label="Contact" variant="subtle" to="mailto:your.email@example.com" block />
+      <UButton class="mt-4" label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" block />
     </template>
   </UHeader>
 </template>
