@@ -27,8 +27,8 @@ const page = {
     title: 'A Journey of <span class="text-primary">Transformation</span>',
     description: 'Nearly a decade in retail operations taught me to think analytically, pay attention to detail, and focus on preventing errors and inefficiencies. Today, I apply these same principles to software development.',
     images: {
-      mobile: '/images/macbook-mobile.svg',
-      desktop: '/images/macbook.svg'
+      mobile: '/images/journey-professional.png',
+      desktop: '/images/journey-professional.png'
     },
     features: [
       {
