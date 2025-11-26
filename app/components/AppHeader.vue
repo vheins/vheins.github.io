@@ -51,7 +51,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
       <UButton :label="t('nav.contact')" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" class="hidden lg:block" />
 
-      <AppLocaleSelect class="w-48" />
+      <AppLocaleSelect class="hidden lg:block w-48" />
 
       <UColorModeButton />
     </template>

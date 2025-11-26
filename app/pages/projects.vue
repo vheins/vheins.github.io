@@ -284,8 +284,17 @@ const links = computed(() => [
     <UContainer class="mt-24">
       <div class="flex flex-col gap-16 md:gap-24 pb-24">
         <div v-for="(project, index) in projects" :key="index" class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+          <!-- Image Side -->
+          <div :class="[index % 2 === 1 ? 'lg:order-1' : 'lg:order-2']">
+            <div
+              class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group">
+              <img :src="project.image || '/images/projects/default.png'" :alt="project.title"
+                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+            </div>
+          </div>
+
           <!-- Content Side -->
-          <div :class="[index % 2 === 1 ? 'lg:order-2' : '']">
+          <div :class="[index % 2 === 1 ? 'lg:order-2' : 'lg:order-1']">
             <div class="flex items-center gap-3 mb-4">
               <UIcon :name="project.icon" class="w-8 h-8 text-primary" />
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
@@ -316,15 +325,6 @@ const links = computed(() => [
                   <span>{{ feature }}</span>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- Image Side -->
-          <div :class="[index % 2 === 1 ? 'lg:order-1' : '']">
-            <div
-              class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group">
-              <img :src="project.image || '/images/projects/default.png'" :alt="project.title"
-                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
             </div>
           </div>
         </div>
