@@ -258,85 +258,103 @@ useSeoMeta({
   title: 'Projects - Muhammad Rheza Alfin',
   description: 'A collection of my projects and technical achievements.'
 })
+
+const links = [
+  {
+    label: 'Get in Touch',
+    icon: 'i-lucide-mail',
+    color: 'primary',
+    to: 'mailto:m.rheza.alfin@gmail.com',
+    size: 'xl'
+  }
+]
 </script>
 
 <template>
-  <UContainer>
+  <div>
     <UPageHero
       title="Featured Projects"
       description="A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms."
       align="center"
-    />
+      :links="links"
+    >
+      <template #top>
+        <HeroBackground />
+      </template>
+    </UPageHero>
 
-    <div class="flex flex-col gap-16 md:gap-24 pb-24">
-      <div
-        v-for="(project, index) in projects"
-        :key="index"
-        class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start"
-      >
-        <!-- Content Side -->
-        <div :class="[index % 2 === 1 ? 'lg:order-2' : '']">
-          <div class="flex items-center gap-3 mb-4">
-            <UIcon
-              :name="project.icon"
-              class="w-8 h-8 text-primary"
-            />
-            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
-              {{ project.title }}
-            </h2>
-          </div>
-
-          <div class="space-y-4">
-            <p class="text-lg text-gray-600 dark:text-gray-300">
-              {{ project.description }}
-            </p>
-
-            <div class="flex flex-wrap gap-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">
-              <div class="flex items-center gap-1.5">
-                <UIcon
-                  name="i-lucide-calendar"
-                  class="w-4 h-4"
-                />
-                <span>{{ project.period }}</span>
-              </div>
-              <div class="flex items-center gap-1.5">
-                <UIcon
-                  name="i-lucide-building-2"
-                  class="w-4 h-4"
-                />
-                <span>{{ project.company }}</span>
-              </div>
+    <UContainer class="mt-24">
+      <div class="flex flex-col gap-16 md:gap-24 pb-24">
+        <div
+          v-for="(project, index) in projects"
+          :key="index"
+          class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start"
+        >
+          <!-- Content Side -->
+          <div :class="[index % 2 === 1 ? 'lg:order-2' : '']">
+            <div class="flex items-center gap-3 mb-4">
+              <UIcon
+                :name="project.icon"
+                class="w-8 h-8 text-primary"
+              />
+              <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+                {{ project.title }}
+              </h2>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6">
-              <div
-                v-for="feature in project.features"
-                :key="feature"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-300"
-              >
-                <UIcon
-                  name="i-lucide-check-circle"
-                  class="w-5 h-5 text-primary flex-shrink-0"
-                />
-                <span>{{ feature }}</span>
+            <div class="space-y-4">
+              <p class="text-lg text-gray-600 dark:text-gray-300">
+                {{ project.description }}
+              </p>
+
+              <div class="flex flex-wrap gap-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">
+                <div class="flex items-center gap-1.5">
+                  <UIcon
+                    name="i-lucide-calendar"
+                    class="w-4 h-4"
+                  />
+                  <span>{{ project.period }}</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <UIcon
+                    name="i-lucide-building-2"
+                    class="w-4 h-4"
+                  />
+                  <span>{{ project.company }}</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6">
+                <div
+                  v-for="feature in project.features"
+                  :key="feature"
+                  class="flex items-center gap-2 text-gray-600 dark:text-gray-300"
+                >
+                  <UIcon
+                    name="i-lucide-check-circle"
+                    class="w-5 h-5 text-primary flex-shrink-0"
+                  />
+                  <span>{{ feature }}</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Image Side -->
-        <div :class="[index % 2 === 1 ? 'lg:order-1' : '']">
-          <div
-            class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group"
-          >
-            <img
-              :src="project.image || '/images/projects/default.png'"
-              :alt="project.title"
-              class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          <!-- Image Side -->
+          <div :class="[index % 2 === 1 ? 'lg:order-1' : '']">
+            <div
+              class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group"
             >
+              <img
+                :src="project.image || '/images/projects/default.png'"
+                :alt="project.title"
+                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </UContainer>
+      <AppCTA />
+    </UContainer>
+  </div>
 </template>

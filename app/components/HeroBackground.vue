@@ -154,7 +154,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="absolute inset-0 overflow-hidden pointer-events-none -z-10 h-[600px] w-full">
+  <div class="absolute inset-0 overflow-hidden pointer-events-none -z-10 w-full h-full">
     <canvas
       ref="canvasRef"
       class="w-full h-full opacity-100"

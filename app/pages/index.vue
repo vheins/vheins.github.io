@@ -20,6 +20,14 @@ const page = {
         variant: 'outline',
         to: 'https://github.com/vheins',
         target: '_blank'
+      },
+      {
+        label: 'Get in Touch',
+        icon: 'i-lucide-mail',
+        size: 'xl',
+        color: 'primary',
+        variant: 'solid',
+        to: 'mailto:m.rheza.alfin@gmail.com'
       }
     ]
   },
@@ -528,34 +536,6 @@ const otherStack = [
       </UPageGrid>
     </UPageSection>
 
-    <USeparator />
-
-    <UPageCTA
-      v-bind="page.cta"
-      variant="naked"
-      class="overflow-hidden @container"
-    >
-      <template #title>
-        <span
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
-          v-html="page.cta.title"
-        />
-
-        <div class="@max-[1280px]:hidden">
-          <UColorModeImage
-            light="/images/light/line-6.svg"
-            dark="/images/dark/line-6.svg"
-            class="absolute left-10 -top-10 sm:top-0 h-full"
-          />
-          <UColorModeImage
-            light="/images/light/line-7.svg"
-            dark="/images/dark/line-7.svg"
-            class="absolute right-0 bottom-0 h-full"
-          />
-        </div>
-      </template>
-
-      <LazyStarsBg />
-    </UPageCTA>
+    <AppCTA />
   </div>
 </template>

@@ -16,6 +16,10 @@ const items = computed(() => [{
   to: '/journey',
   active: route.path === '/journey'
 }, {
+  label: 'Services',
+  to: '/services',
+  active: route.path === '/services'
+}, {
   label: 'Projects',
   to: '/projects',
   active: route.path === '/projects'
