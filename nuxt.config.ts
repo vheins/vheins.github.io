@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/image',
     '@nuxt/ui',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/i18n'
   ],
 
   devtools: {
@@ -36,5 +37,16 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'id', name: 'Indonesia', file: 'id.json' }
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: 'locales'
   }
 })

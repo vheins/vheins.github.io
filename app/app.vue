@@ -1,7 +1,13 @@
 <script setup lang="ts">
+import * as locales from '@nuxt/ui/locale'
+
 const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#171717' : 'white')
+
+const { locale } = useI18n()
+const lang = computed(() => locales[locale.value]?.code || 'en')
+const dir = computed(() => locales[locale.value]?.dir || 'ltr')
 
 useHead({
   meta: [
@@ -12,7 +18,8 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang,
+    dir
   }
 })
 
@@ -24,7 +31,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp :toaster="{ expand: false }">
+  <UApp :locale="locales[locale]" :toaster="{ expand: false }">
     <AppHeader />
 
     <UMain>
