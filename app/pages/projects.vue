@@ -24,6 +24,7 @@ const projects = [
     period: 'May 2024 - Jul 2025',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-fingerprint',
+    image: '/images/projects/sakti.png',
     features: [
       'Laravel',
       'Vue.js',
@@ -40,6 +41,7 @@ const projects = [
     period: 'Jul 2024 - Oct 2024',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-globe',
+    image: '/images/projects/folur-web.png',
     features: [
       'Python',
       'JavaScript',
@@ -55,6 +57,7 @@ const projects = [
     period: 'Dec 2023 - Mar 2024',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-flask-conical',
+    image: '/images/projects/tekmira-uprof.png',
     features: [
       'Laravel',
       'Vue.js',
@@ -70,6 +73,7 @@ const projects = [
     period: 'Apr 2023 - Sep 2023',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-simple-icons-drupal',
+    image: '/images/projects/malaria-web.png',
     features: [
       'Drupal 9.5',
       'Health Governance',
@@ -83,6 +87,7 @@ const projects = [
     period: 'Jul 2023 - Sep 2023',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-fish',
+    image: '/images/projects/slide-babel.png',
     features: [
       'Fisheries Data',
       'Price Monitoring',
@@ -96,6 +101,7 @@ const projects = [
     period: 'Nov 2022 - Jun 2023',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-shopping-bag',
+    image: '/images/projects/rabbani.png',
     features: [
       'Vue.js',
       'Node.js',
@@ -109,6 +115,7 @@ const projects = [
     period: 'Jan 2023 - May 2023',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-bar-chart-3',
+    image: '/images/projects/clove-analytics.png',
     features: [
       'Laravel',
       'Vue.js',
@@ -123,6 +130,7 @@ const projects = [
     period: 'Jun 2022 - May 2023',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-medal',
+    image: '/images/projects/koni-jabar-atlet.png',
     features: [
       'MySQL',
       'PHP',
@@ -132,16 +140,17 @@ const projects = [
     ]
   },
   {
-    title: 'Starsender Plugin for WiseCP',
-    description: 'WhatsApp API integration plugin for WiseCP. Enables businesses to send automated messages and notifications directly from the dashboard, enhancing client communication and engagement.',
+    title: 'Starsender Plugin for WHMCS',
+    description: 'WhatsApp API integration plugin for WHMCS. Enables businesses to send automated messages and notifications directly from the dashboard, enhancing client communication and engagement.',
     period: 'Apr 2023 - Apr 2023',
     company: 'Freelance',
     icon: 'i-simple-icons-whatsapp',
+    image: '/images/projects/starsender.png',
     features: [
       'PHP',
       'REST APIs',
       'WhatsApp API',
-      'WiseCP Integration'
+      'WHMCS Integration'
     ]
   },
   {
@@ -150,6 +159,7 @@ const projects = [
     period: 'Oct 2022 - Mar 2023',
     company: 'Inacookies',
     icon: 'i-lucide-layout',
+    image: '/images/projects/favori-app.png',
     features: [
       'Laravel',
       'Vue.js',
@@ -178,6 +188,7 @@ const projects = [
     period: 'Jul 2022 - Nov 2022',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-layout-dashboard',
+    image: '/images/projects/koni-jabar-dashboard.png',
     features: [
       'CodeIgniter',
       'MySQL',
@@ -191,6 +202,7 @@ const projects = [
     period: 'Jul 2022 - Nov 2022',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-monitor',
+    image: '/images/projects/konijabar-website.png',
     features: [
       'CodeIgniter',
       'PHP',
@@ -218,6 +230,7 @@ const projects = [
     period: 'Jun 2022 - Jul 2022',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-shield-alert',
+    image: '/images/projects/undss-dashboard.png',
     features: [
       'CodeIgniter',
       'PHP',
@@ -249,37 +262,62 @@ useSeoMeta({
 
 <template>
   <UContainer>
-    <UPageHero title="Featured Projects"
+    <UPageHero
+      title="Featured Projects"
       description="A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms."
-      align="center" />
+      align="center"
+    />
 
     <div class="flex flex-col gap-16 md:gap-24 pb-24">
-      <div v-for="(project, index) in projects" :key="index" class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+      <div
+        v-for="(project, index) in projects"
+        :key="index"
+        class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start"
+      >
         <!-- Content Side -->
         <div :class="[index % 2 === 1 ? 'lg:order-2' : '']">
           <div class="flex items-center gap-3 mb-4">
-            <UIcon :name="project.icon" class="w-8 h-8 text-primary" />
-            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">{{ project.title }}</h2>
+            <UIcon
+              :name="project.icon"
+              class="w-8 h-8 text-primary"
+            />
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+              {{ project.title }}
+            </h2>
           </div>
 
           <div class="space-y-4">
-            <p class="text-lg text-gray-600 dark:text-gray-300">{{ project.description }}</p>
+            <p class="text-lg text-gray-600 dark:text-gray-300">
+              {{ project.description }}
+            </p>
 
             <div class="flex flex-wrap gap-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">
               <div class="flex items-center gap-1.5">
-                <UIcon name="i-lucide-calendar" class="w-4 h-4" />
+                <UIcon
+                  name="i-lucide-calendar"
+                  class="w-4 h-4"
+                />
                 <span>{{ project.period }}</span>
               </div>
               <div class="flex items-center gap-1.5">
-                <UIcon name="i-lucide-building-2" class="w-4 h-4" />
+                <UIcon
+                  name="i-lucide-building-2"
+                  class="w-4 h-4"
+                />
                 <span>{{ project.company }}</span>
               </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6">
-              <div v-for="feature in project.features" :key="feature"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-                <UIcon name="i-lucide-check-circle" class="w-5 h-5 text-primary flex-shrink-0" />
+              <div
+                v-for="feature in project.features"
+                :key="feature"
+                class="flex items-center gap-2 text-gray-600 dark:text-gray-300"
+              >
+                <UIcon
+                  name="i-lucide-check-circle"
+                  class="w-5 h-5 text-primary flex-shrink-0"
+                />
                 <span>{{ feature }}</span>
               </div>
             </div>
@@ -289,17 +327,13 @@ useSeoMeta({
         <!-- Image Side -->
         <div :class="[index % 2 === 1 ? 'lg:order-1' : '']">
           <div
-            class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-primary/20 dark:from-primary/10 dark:to-primary/30" />
-            <UIcon :name="project.icon"
-              class="w-24 h-24 text-primary group-hover:scale-110 transition-transform duration-500" />
-
-            <!-- Decorative UI Elements -->
-            <div
-              class="absolute top-4 left-4 right-4 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-            <div
-              class="absolute bottom-4 left-4 right-4 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+            class="relative aspect-video w-full rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex items-center justify-center group"
+          >
+            <img
+              :src="project.image || '/images/projects/default.png'"
+              :alt="project.title"
+              class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            >
           </div>
         </div>
       </div>

@@ -39,16 +39,35 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
     </template>
 
     <template #right>
-      <UNavigationMenu :items="items" variant="link" class="hidden lg:block" />
+      <UNavigationMenu
+        :items="items"
+        variant="link"
+        class="hidden lg:block"
+      />
 
-      <UButton label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" class="hidden lg:block" />
+      <UButton
+        label="Contact"
+        variant="subtle"
+        to="mailto:m.rheza.alfin@gmail.com"
+        class="hidden lg:block"
+      />
 
       <UColorModeButton />
     </template>
 
     <template #body>
-      <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
-      <UButton class="mt-4" label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" block />
+      <UNavigationMenu
+        :items="items"
+        orientation="vertical"
+        class="-mx-2.5"
+      />
+      <UButton
+        class="mt-4"
+        label="Contact"
+        variant="subtle"
+        to="mailto:m.rheza.alfin@gmail.com"
+        block
+      />
     </template>
   </UHeader>
 </template>

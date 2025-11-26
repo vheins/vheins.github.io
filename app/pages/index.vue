@@ -144,70 +144,80 @@ const page = {
         description: 'Designed for PT Pesonna Optima Jasa to manage employee attendance records, utilizing technologies like DeepFace for facial recognition to ensure accurate clock-in/out procedures and generating integrated reports.',
         period: 'May 2024 - Jul 2025',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-fingerprint'
+        icon: 'i-lucide-fingerprint',
+        image: '/images/projects/sakti.png'
       },
       {
         title: 'Folur Global Platform',
         description: 'The Food Systems, Land Use, and Restoration (FOLUR) initiative aims to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across 27 countries.',
         period: 'Jul 2024 - Oct 2024',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-globe'
+        icon: 'i-lucide-globe',
+        image: '/images/projects/folur-web.png'
       },
       {
         title: 'tekMIRA-Uji Profisiensi',
         description: 'Proficiency testing program to evaluate the performance of participant laboratories in testing coal, coal ash, laterite nickel minerals, bauxite, and iron ore, ensuring compliance with ISO 17025 standards.',
         period: 'Dec 2023 - Mar 2024',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-flask-conical'
+        icon: 'i-lucide-flask-conical',
+        image: '/images/projects/tekmira-uprof.png'
       },
       {
         title: 'Malaria Website with Drupal 9.5',
         description: 'Developed for UNDP HEART Program to support national efforts in addressing health inequality. Focuses on strengthening the Global Fund for AIDS, Tuberculosis and Malaria (GFATM) Country Coordinating Mechanisms.',
         period: 'Apr 2023 - Sep 2023',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-simple-icons-drupal'
+        icon: 'i-simple-icons-drupal',
+        image: '/images/projects/malaria-web.png'
       },
       {
         title: 'Slide Babel - Sistem Informasi Perikanan',
         description: 'Fisheries information services platform providing data on Fish Price, Availability, Cultivated Fish Types, Marketing Locations, and Cold Storage Facilities for the Marine and Fisheries Service of Bangka Belitung Province.',
         period: 'Jul 2023 - Sep 2023',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-fish'
+        icon: 'i-lucide-fish',
+        image: '/images/projects/slide-babel.png'
       },
       {
         title: 'Rabbani Web Commerce',
         description: 'E-commerce platform specializing in Islamic-based products. Designed to provide a convenient and secure shopping experience with features aligning with Islamic values and ethical production practices.',
         period: 'Nov 2022 - Jun 2023',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-shopping-bag'
+        icon: 'i-lucide-shopping-bag',
+        image: '/images/projects/rabbani.png'
       },
       {
         title: 'Clove Analytics Dashboard',
         description: 'Website Analytic Tool for Clove statistical Research. Features User/Role Management, Subscription Management, and specific statistical modules like Significant Test, Proportion Test, and Brand Maps.',
         period: 'Jan 2023 - May 2023',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-bar-chart-3'
+        icon: 'i-lucide-bar-chart-3',
+        image: '/images/projects/clove-analytics.png'
       },
       {
         title: 'Koni Jabar Atlet Management',
         description: 'Platform integrating athlete data, training programs, and sports achievements in West Java. A comprehensive source of information for tracking athletes and coaching programs.',
         period: 'Jun 2022 - May 2023',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-medal'
+        icon: 'i-lucide-medal',
+        image: '/images/projects/koni-jabar-atlet.png'
       },
       {
-        title: 'Starsender Plugin for WiseCP',
-        description: 'Seamless integration of WhatsApp API into the WiseCP platform. Enables sending WhatsApp messages directly from the WiseCP dashboard for efficient client communication.',
+        title: 'Starsender Plugin for WHMCS',
+        description: 'Seamless integration of WhatsApp API into the WHMCS platform. Enables sending WhatsApp messages directly from the WHMCS dashboard for efficient client communication.',
         period: 'Apr 2023 - Apr 2023',
         company: 'Freelance',
-        icon: 'i-simple-icons-whatsapp'
+        icon: 'i-simple-icons-whatsapp',
+        image: '/images/projects/starsender.png'
       },
       {
         title: 'Favori App V2',
         description: 'Information system dashboard for Inacookies internal use. Allows monitoring of sales data, production metrics, inventory levels, and customer feedback with real-time visualization.',
         period: 'Oct 2022 - Mar 2023',
         company: 'Inacookies',
-        icon: 'i-lucide-layout'
+        icon: 'i-lucide-layout',
+        image: '/images/projects/favori-app.png'
       },
       {
         title: 'MTRE3 Insentif Surya Atap',
@@ -221,14 +231,16 @@ const page = {
         description: 'Dashboard for West Java Sports Resource Data Center. Provides interactive visualizations regarding athletes, training programs, and sporting achievements.',
         period: 'Jul 2022 - Nov 2022',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-layout-dashboard'
+        icon: 'i-lucide-layout-dashboard',
+        image: '/images/projects/koni-jabar-dashboard.png'
       },
       {
         title: 'Koni Jabar Website',
         description: 'Maintenance, feature enhancements, and bug fixing for the Koni Jabar website to ensure optimal performance and improved user experience.',
         period: 'Jul 2022 - Nov 2022',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-monitor'
+        icon: 'i-lucide-monitor',
+        image: '/images/projects/konijabar-website.png'
       },
       {
         title: 'Frozen Food Dashboard & E-Commerce',
@@ -242,7 +254,8 @@ const page = {
         description: 'Bug fixing and new feature development for UNDSS Dashboard. Processes incident data into a centralized bank for spatial analysis and risk management.',
         period: 'Jun 2022 - Jul 2022',
         company: 'PT. Inovasi Dinamika Solusi',
-        icon: 'i-lucide-shield-alert'
+        icon: 'i-lucide-shield-alert',
+        image: '/images/projects/undss-dashboard.png'
       },
       {
         title: 'Zafaa POS',
@@ -318,14 +331,21 @@ const otherStack = [
 <template>
   <div class="relative">
     <div class="hidden lg:block">
-      <UColorModeImage light="/images/light/line-1.svg" dark="/images/dark/line-1.svg"
-        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]" />
+      <UColorModeImage
+        light="/images/light/line-1.svg"
+        dark="/images/dark/line-1.svg"
+        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
+      />
     </div>
 
-    <UPageHero :description="page.description" :links="page.hero.links" :ui="{
-      container: 'md:pt-18 lg:pt-20',
-      title: 'max-w-3xl mx-auto'
-    }">
+    <UPageHero
+      :description="page.description"
+      :links="page.hero.links"
+      :ui="{
+        container: 'md:pt-18 lg:pt-20',
+        title: 'max-w-3xl mx-auto'
+      }"
+    >
       <template #top>
         <HeroBackground />
       </template>
@@ -339,14 +359,23 @@ const otherStack = [
       <div class="flex flex-col items-center gap-12">
         <!-- Favorite Stack -->
         <div class="flex flex-col items-center gap-6">
-          <p class="text-sm font-semibold text-primary uppercase tracking-wider">My Core Stack</p>
+          <p class="text-sm font-semibold text-primary uppercase tracking-wider">
+            My Core Stack
+          </p>
           <div class="flex flex-wrap justify-center gap-6 lg:gap-8 max-w-4xl">
-            <UTooltip v-for="tech in favoriteStack" :key="tech.name" :text="tech.name">
+            <UTooltip
+              v-for="tech in favoriteStack"
+              :key="tech.name"
+              :text="tech.name"
+            >
               <div
-                class="flex items-center justify-center p-4 rounded-2xl bg-primary/5 dark:bg-primary/10 ring-2 ring-primary/50 dark:ring-primary/50 shadow-lg shadow-primary/10 hover:scale-110 transition-all duration-300 group">
-                <UIcon :name="tech.icon"
+                class="flex items-center justify-center p-4 rounded-2xl bg-primary/5 dark:bg-primary/10 ring-2 ring-primary/50 dark:ring-primary/50 shadow-lg shadow-primary/10 hover:scale-110 transition-all duration-300 group"
+              >
+                <UIcon
+                  :name="tech.icon"
                   class="w-10 h-10 text-gray-500 dark:text-gray-400 transition-colors duration-200"
-                  :class="tech.color" />
+                  :class="tech.color"
+                />
               </div>
             </UTooltip>
           </div>
@@ -354,14 +383,24 @@ const otherStack = [
 
         <!-- Other Stack -->
         <div class="flex flex-col items-center gap-6">
-          <p class="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wider">Other Technologies I
-            Use</p>
+          <p class="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wider">
+            Other Technologies I
+            Use
+          </p>
           <div class="flex flex-wrap justify-center gap-3 lg:gap-4 max-w-4xl">
-            <UTooltip v-for="tech in otherStack" :key="tech.name" :text="tech.name">
+            <UTooltip
+              v-for="tech in otherStack"
+              :key="tech.name"
+              :text="tech.name"
+            >
               <div
-                class="flex items-center justify-center p-2.5 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50">
-                <UIcon :name="tech.icon" class="w-6 h-6 text-gray-400 dark:text-gray-500 transition-colors duration-200"
-                  :class="tech.color" />
+                class="flex items-center justify-center p-2.5 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50"
+              >
+                <UIcon
+                  :name="tech.icon"
+                  class="w-6 h-6 text-gray-400 dark:text-gray-500 transition-colors duration-200"
+                  :class="tech.color"
+                />
               </div>
             </UTooltip>
           </div>
@@ -369,33 +408,59 @@ const otherStack = [
       </div>
     </UContainer>
 
-    <UPageSection :description="page.section.description" :features="page.section.features" orientation="horizontal"
+    <UPageSection
+      :description="page.section.description"
+      :features="page.section.features"
+      orientation="horizontal"
       :ui="{
         container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10',
         features: 'gap-0'
-      }" reverse>
+      }"
+      reverse
+    >
       <template #title>
-        <span v-html="page.section.title"
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" />
+        <span
+          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
+          v-html="page.section.title"
+        />
       </template>
-      <img :src="page.section.images.desktop" alt="Journey" class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl">
-      <img :src="page.section.images.mobile" alt="Journey" class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl">
+      <img
+        :src="page.section.images.desktop"
+        alt="Journey"
+        class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
+      >
+      <img
+        :src="page.section.images.mobile"
+        alt="Journey"
+        class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
+      >
     </UPageSection>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
-    <UPageSection id="features" :description="page.features.description" :features="page.features.features" :ui="{
-      title: 'text-left @container relative flex',
-      description: 'text-left'
-    }" class="relative overflow-hidden">
+    <UPageSection
+      id="features"
+      :description="page.features.description"
+      :features="page.features.features"
+      :ui="{
+        title: 'text-left @container relative flex',
+        description: 'text-left'
+      }"
+      class="relative overflow-hidden"
+    >
       <div class="absolute rounded-full -left-10 top-10 size-[300px] z-10 bg-primary opacity-30 blur-[200px]" />
       <div class="absolute rounded-full -right-10 -bottom-10 size-[300px] z-10 bg-primary opacity-30 blur-[200px]" />
       <template #title>
-        <span v-html="page.features.title"
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" />
+        <span
+          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
+          v-html="page.features.title"
+        />
         <div class="hidden @min-[1020px]:block">
-          <UColorModeImage light="/images/light/line-2.svg" dark="/images/dark/line-2.svg"
-            class="absolute top-0 right-0 size-full transform scale-95 translate-x-[70%]" />
+          <UColorModeImage
+            light="/images/light/line-2.svg"
+            dark="/images/dark/line-2.svg"
+            class="absolute top-0 right-0 size-full transform scale-95 translate-x-[70%]"
+          />
         </div>
       </template>
     </UPageSection>
@@ -404,30 +469,57 @@ const otherStack = [
 
     <HomeJourney id="steps" />
 
-    <UPageSection id="projects" class="mb-32 overflow-hidden" :title="page.projects.title"
+    <UPageSection
+      id="projects"
+      class="mb-32 overflow-hidden"
+      :title="page.projects.title"
       :description="page.projects.description"
-      :ui="{ title: 'text-left @container relative', description: 'text-left' }">
+      :ui="{ title: 'text-left @container relative', description: 'text-left' }"
+    >
       <template #title>
-        <span v-html="page.projects.title"
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" />
+        <span
+          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
+          v-html="page.projects.title"
+        />
 
         <div class="hidden @min-[1120px]:block">
-          <UColorModeImage light="/images/light/line-4.svg" dark="/images/dark/line-4.svg"
-            class="absolute top-0 right-0 size-full transform translate-x-[60%]" />
+          <UColorModeImage
+            light="/images/light/line-4.svg"
+            dark="/images/dark/line-4.svg"
+            class="absolute top-0 right-0 size-full transform translate-x-[60%]"
+          />
         </div>
       </template>
 
       <UPageGrid>
-        <UPageCard v-for="(project, index) in page.projects.items" :key="index" :title="project.title"
-          :description="project.description" :icon="project.icon">
+        <UPageCard
+          v-for="(project, index) in page.projects.items"
+          :key="index"
+          :title="project.title"
+          :description="project.description"
+          :ui="{ header: { padding: 'p-0 sm:p-0' } }"
+        >
+          <template #header>
+            <img
+              :src="project.image || '/images/projects/default.png'"
+              :alt="project.title"
+              class="w-full h-48 object-cover object-top"
+            >
+          </template>
           <template #footer>
             <div class="flex flex-col gap-1 text-sm text-gray-500 dark:text-gray-400">
               <div class="flex items-center gap-2">
-                <UIcon name="i-lucide-calendar" class="w-4 h-4" />
+                <UIcon
+                  name="i-lucide-calendar"
+                  class="w-4 h-4"
+                />
                 <span>{{ project.period }}</span>
               </div>
               <div class="flex items-center gap-2">
-                <UIcon name="i-lucide-building-2" class="w-4 h-4" />
+                <UIcon
+                  name="i-lucide-building-2"
+                  class="w-4 h-4"
+                />
                 <span>{{ project.company }}</span>
               </div>
             </div>
@@ -438,16 +530,28 @@ const otherStack = [
 
     <USeparator />
 
-    <UPageCTA v-bind="page.cta" variant="naked" class="overflow-hidden @container">
+    <UPageCTA
+      v-bind="page.cta"
+      variant="naked"
+      class="overflow-hidden @container"
+    >
       <template #title>
-        <span v-html="page.cta.title"
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" />
+        <span
+          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
+          v-html="page.cta.title"
+        />
 
         <div class="@max-[1280px]:hidden">
-          <UColorModeImage light="/images/light/line-6.svg" dark="/images/dark/line-6.svg"
-            class="absolute left-10 -top-10 sm:top-0 h-full" />
-          <UColorModeImage light="/images/light/line-7.svg" dark="/images/dark/line-7.svg"
-            class="absolute right-0 bottom-0 h-full" />
+          <UColorModeImage
+            light="/images/light/line-6.svg"
+            dark="/images/dark/line-6.svg"
+            class="absolute left-10 -top-10 sm:top-0 h-full"
+          />
+          <UColorModeImage
+            light="/images/light/line-7.svg"
+            dark="/images/dark/line-7.svg"
+            class="absolute right-0 bottom-0 h-full"
+          />
         </div>
       </template>
 

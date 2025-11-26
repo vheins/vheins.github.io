@@ -43,7 +43,10 @@ const columns = [{
 </script>
 
 <template>
-  <USeparator icon="i-simple-icons-nuxtdotjs" class="h-px" />
+  <USeparator
+    icon="i-simple-icons-nuxtdotjs"
+    class="h-px"
+  />
 
   <UFooter :ui="{ top: 'border-b border-default' }">
     <template #top>
@@ -59,12 +62,29 @@ const columns = [{
     </template>
 
     <template #right>
-      <UButton to="https://github.com/vheins" target="_blank" icon="i-simple-icons-github" aria-label="GitHub Profile"
-        color="neutral" variant="ghost" />
-      <UButton to="https://www.linkedin.com/in/arhez" target="_blank" icon="i-simple-icons-linkedin"
-        aria-label="LinkedIn Profile" color="neutral" variant="ghost" />
-      <UButton to="mailto:m.rheza.alfin@gmail.com" icon="i-lucide-mail" aria-label="Email" color="neutral"
-        variant="ghost" />
+      <UButton
+        to="https://github.com/vheins"
+        target="_blank"
+        icon="i-simple-icons-github"
+        aria-label="GitHub Profile"
+        color="neutral"
+        variant="ghost"
+      />
+      <UButton
+        to="https://www.linkedin.com/in/arhez"
+        target="_blank"
+        icon="i-simple-icons-linkedin"
+        aria-label="LinkedIn Profile"
+        color="neutral"
+        variant="ghost"
+      />
+      <UButton
+        to="mailto:m.rheza.alfin@gmail.com"
+        icon="i-lucide-mail"
+        aria-label="Email"
+        color="neutral"
+        variant="ghost"
+      />
     </template>
   </UFooter>
 </template>

@@ -155,10 +155,14 @@ onUnmounted(() => {
 
 <template>
   <div class="absolute inset-0 overflow-hidden pointer-events-none -z-10 h-[600px] w-full">
-    <canvas ref="canvasRef" class="w-full h-full opacity-100" />
+    <canvas
+      ref="canvasRef"
+      class="w-full h-full opacity-100"
+    />
     <!-- Gradient overlay for text readability -->
     <div
-      class="absolute inset-0 bg-gradient-to-b from-transparent via-white/80 to-white dark:via-gray-900/80 dark:to-gray-900" />
+      class="absolute inset-0 bg-gradient-to-b from-transparent via-white/80 to-white dark:via-gray-900/80 dark:to-gray-900"
+    />
   </div>
 </template>
 ```
