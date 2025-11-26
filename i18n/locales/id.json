@@ -1,45 +1,45 @@
 {
   "nav": {
     "about": "Tentang",
-    "skills": "Keahlian",
-    "journey": "Perjalanan",
-    "services": "Layanan",
-    "projects": "Proyek",
-    "contact": "Kontak"
+    "skills": "Skills",
+    "journey": "Journey",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
   },
   "common": {
-    "fullTime": "Penuh Waktu"
+    "fullTime": "Full-time"
   },
   "cta": {
     "title_prefix": "Mari Membangun Sesuatu",
     "title_highlight": "Bersama",
     "title_suffix": "",
-    "description": "Mari berkolaborasi untuk membangun sesuatu yang luar biasa. Saya siap bermitra dengan Anda untuk mengubah ide-ide Anda menjadi solusi yang berdampak. Bersama-sama, kita dapat menciptakan teknologi yang mendorong kemajuan nyata.",
+    "description": "Let's collaborate! Saya siap membantu mengubah ide-ide Anda menjadi solusi yang berdampak. Bersama-sama, kita bisa menciptakan teknologi yang mendorong kemajuan nyata.",
     "getInTouch": "Hubungi Saya",
     "viewGithub": "Lihat GitHub"
   },
   "footer": {
     "navigation": "Navigasi",
     "technologies": "Teknologi",
-    "connect": "Terhubung",
+    "connect": "Connect",
     "builtWith": "Dibuat dengan Nuxt UI • © {year} Muhammad Rheza Alfin"
   },
   "journey": {
     "title_prefix": "",
-    "title_highlight": "Perjalanan",
+    "title_highlight": "Journey",
     "title_suffix": "Saya",
-    "description": "Dari kontrol inventaris hingga infrastruktur cloud - setiap langkah telah membangun siapa saya hari ini.",
+    "description": "Dari inventory control hingga cloud infrastructure - setiap langkah membentuk siapa saya hari ini.",
     "experiences": {
       "ids": {
         "company": "PT. Inovasi Dinamika Solusi",
         "location": "Bandung, Jawa Barat, Indonesia",
         "roles": {
           "lead": {
-            "title": "Ketua Tim Pengembangan Perangkat Lunak",
-            "description": "Memimpin tim pengembangan perangkat lunak, mengelola jadwal proyek, dan mengawasi pengiriman solusi perusahaan."
+            "title": "Software Development Team Lead",
+            "description": "Memimpin tim software development, mengelola timeline project, dan memastikan delivery solusi enterprise yang berkualitas."
           },
           "dev": {
-            "title": "Pengembang Full-stack",
+            "title": "Full-stack Developer",
             "description": "Mengembangkan dan memelihara aplikasi full-stack menggunakan Laravel, Vue.js, dan Docker."
           }
         }
@@ -49,8 +49,8 @@
         "location": "Bandung, Jawa Barat, Indonesia",
         "roles": {
           "dev": {
-            "title": "Pengembang Full-stack",
-            "description": "Membangun sistem e-commerce dan POS yang komprehensif, mengelola siklus hidup pengembangan penuh."
+            "title": "Full-stack Developer",
+            "description": "Membangun sistem e-commerce dan POS yang komprehensif, serta mengelola full development lifecycle."
           }
         }
       },
@@ -59,8 +59,8 @@
         "location": "Bandung, Jawa Barat, Indonesia",
         "roles": {
           "sales": {
-            "title": "Kepala Operasional Penjualan",
-            "description": "Mengelola operasional penjualan, mengoptimalkan proses, dan mengawasi kinerja tim."
+            "title": "Head of Sales Operations",
+            "description": "Mengelola operasional sales, mengoptimalkan proses bisnis, dan memonitor performa tim."
           }
         }
       },
@@ -69,16 +69,16 @@
         "location": "Bandung, Jawa Barat, Indonesia",
         "roles": {
           "supervisor": {
-            "title": "Supervisor Kontrol Inventaris",
-            "description": "Mengawasi operasional kontrol inventaris, memastikan akurasi dan efisiensi dalam manajemen stok."
+            "title": "Inventory Control Supervisor",
+            "description": "Mengawasi operasional inventory control, memastikan akurasi dan efisiensi dalam manajemen stok."
           },
           "analyst": {
-            "title": "Analis Kontrol Inventaris",
-            "description": "Menganalisis data inventaris untuk mengidentifikasi tren, ketidaksesuaian, dan peluang perbaikan."
+            "title": "Inventory Control Analyst",
+            "description": "Menganalisis data inventory untuk mengidentifikasi tren, discrepancies, dan peluang improvement."
           },
           "clerk": {
-            "title": "Petugas Kontrol Inventaris",
-            "description": "Melakukan pemeriksaan inventaris harian dan memelihara catatan stok yang akurat."
+            "title": "Inventory Control Clerk",
+            "description": "Melakukan pemeriksaan inventory harian dan menjaga keakuratan catatan stok."
           }
         }
       }
@@ -86,11 +86,11 @@
   },
   "home": {
     "title_prefix": "Dari Lantai Ritel ke",
-    "title_highlight": "Server Cloud",
+    "title_highlight": "Cloud Servers",
     "title_suffix": "",
-    "description": "Pengembang Full-stack & Konsultan IT yang berspesialisasi dalam penyetelan kinerja, integrasi sistem, dan otomatisasi. Saya menggabungkan pengetahuan operasional bisnis dengan teknologi untuk memberikan solusi yang meningkatkan proses dunia nyata.",
+    "description": "Full-stack Developer & IT Consultant dengan spesialisasi di performance tuning, system integration, dan automation. Saya menggabungkan pemahaman operasional bisnis dengan teknologi untuk memberikan solusi yang berdampak nyata.",
     "hero": {
-      "viewProjects": "Lihat Proyek",
+      "viewProjects": "Lihat Projects",
       "github": "GitHub",
       "getInTouch": "Hubungi Saya"
     },
@@ -98,215 +98,215 @@
       "title_prefix": "Sebuah Perjalanan",
       "title_highlight": "Transformasi",
       "title_suffix": "",
-      "description": "Hampir satu dekade dalam operasional ritel mengajarkan saya untuk berpikir analitis, memperhatikan detail, dan fokus pada pencegahan kesalahan dan inefisiensi. Hari ini, saya menerapkan prinsip-prinsip yang sama ini pada pengembangan perangkat lunak.",
+      "description": "Hampir satu dekade di operasional ritel mengajarkan saya untuk berpikir analitis, detail-oriented, dan fokus pada pencegahan error. Kini, saya menerapkan prinsip yang sama dalam software development.",
       "features": {
         "analytical": {
-          "title": "Berpikir Analitis",
-          "description": "Terlatih melalui bertahun-tahun menyelidiki ketidakteraturan dan penyalahgunaan operasional di Grup Indomaret. Saya mendekati setiap masalah secara sistematis, mengidentifikasi akar penyebab dan menerapkan solusi pencegahan."
+          "title": "Analytical Thinking",
+          "description": "Terlatih bertahun-tahun menyelidiki ketidakteraturan operasional di Grup Indomaret. Saya mendekati setiap masalah secara sistematis, mencari root cause, dan menerapkan solusi preventif."
         },
         "detail": {
-          "title": "Perhatian terhadap Detail",
-          "description": "Dari mengelola akurasi inventaris di beberapa toko hingga menulis kode yang bersih dan dapat dipelihara - presisi itu penting. Setiap baris kode, setiap konfigurasi, setiap penyebaran dipertimbangkan dengan cermat."
+          "title": "Attention to Detail",
+          "description": "Dari mengelola akurasi inventory di banyak toko hingga menulis clean code - presisi itu penting. Setiap baris kode, konfigurasi, dan deployment dipertimbangkan dengan matang."
         },
         "improvement": {
-          "title": "Peningkatan Proses",
-          "description": "Baik mengoptimalkan alur kerja pelaporan stok atau merancang sistem yang dapat diskalakan, saya didorong oleh efisiensi. Saya percaya teknologi harus memecahkan masalah nyata dan meningkatkan proses nyata."
+          "title": "Process Improvement",
+          "description": "Baik mengoptimalkan workflow pelaporan stok atau merancang scalable systems, saya didorong oleh efisiensi. Teknologi harus memecahkan masalah nyata dan meningkatkan proses yang ada."
         }
       }
     },
     "expertise": {
       "title_prefix": "",
-      "title_highlight": "Keahlian",
-      "title_suffix": "Teknis",
-      "description": "Membangun solusi modern dan dapat diskalakan dengan fokus pada kinerja, pemeliharaan, dan dampak dunia nyata.",
+      "title_highlight": "Technical",
+      "title_suffix": "Expertise",
+      "description": "Membangun solusi modern dan scalable dengan fokus pada performance, maintainability, dan real-world impact.",
       "items": {
         "backend": {
-          "title": "Pengembangan Backend",
-          "description": "Kerangka kerja Laravel dan NestJS dengan PostgreSQL, MySQL, dan Redis untuk aplikasi yang kuat dan berkinerja tinggi."
+          "title": "Backend Development",
+          "description": "Laravel dan NestJS frameworks dengan PostgreSQL, MySQL, dan Redis untuk aplikasi yang robust dan high-performance."
         },
         "frontend": {
-          "title": "Pengembangan Frontend",
-          "description": "Vue.js dan Nuxt untuk membangun antarmuka pengguna yang bersih dan reaktif dengan praktik terbaik JavaScript modern."
+          "title": "Frontend Development",
+          "description": "Vue.js dan Nuxt untuk membangun user interface yang clean dan reactive dengan best practice JavaScript modern."
         },
         "performance": {
-          "title": "Optimasi Kinerja",
-          "description": "Memanfaatkan Soketi, Octane, dan Redis untuk fitur real-time dan waktu respons yang sangat cepat."
+          "title": "Performance Optimization",
+          "description": "Memanfaatkan Soketi, Octane, dan Redis untuk fitur real-time dan response time yang super cepat."
         },
         "devops": {
-          "title": "DevOps & Infrastruktur",
-          "description": "Docker, Nginx, Kong, HAProxy, dan Patroni untuk penyebaran yang dapat diskalakan, andal, dan ketersediaan tinggi."
+          "title": "DevOps & Infrastructure",
+          "description": "Docker, Nginx, Kong, HAProxy, dan Patroni untuk deployment yang scalable, reliable, dan high availability."
         },
         "integration": {
-          "title": "Integrasi Perusahaan",
+          "title": "Enterprise Integration",
           "description": "Integrasi sistem ERP dengan Odoo, membangun jembatan antara operasional bisnis dan teknologi."
         },
         "leadership": {
-          "title": "Kepemimpinan Tim",
-          "description": "Memimpin tim pengembangan, membimbing pengembang, dan membina budaya pembelajaran berkelanjutan dan keunggulan."
+          "title": "Team Leadership",
+          "description": "Memimpin tim development, mentoring developer, dan membangun kultur continuous learning yang positif."
         }
       }
     },
     "projects": {
-      "title_prefix": "",
-      "title_highlight": "Proyek",
-      "title_suffix": "Unggulan",
-      "description": "Daftar lengkap proyek yang telah saya sampaikan, mulai dari perencanaan sumber daya perusahaan hingga dasbor khusus dan platform e-commerce.",
+      "title_prefix": "Featured",
+      "title_highlight": "Projects",
+      "title_suffix": "",
+      "description": "Daftar lengkap project yang telah saya kerjakan, mulai dari ERP hingga dashboard khusus dan platform e-commerce.",
       "items": {
         "ids_starter": {
           "title": "IDS Starter Kit",
-          "description": "Starter Kit Aplikasi FullStack menggunakan framework Laravel, VueJS, UI Kit, dan ramah Docker. Starter kit komprehensif ini memberikan pengembang fondasi yang kuat untuk memulai pengembangan aplikasi full-stack."
+          "description": "Starter Kit Aplikasi FullStack menggunakan framework Laravel, VueJS, UI Kit, dan Docker-friendly. Memberikan fondasi yang kuat untuk memulai pengembangan aplikasi full-stack."
         },
         "sakti": {
           "title": "Sistem Absensi dan Laporan Terintegrasi (Sakti)",
-          "description": "Dirancang untuk PT Pesonna Optima Jasa untuk mengelola catatan kehadiran karyawan, memanfaatkan teknologi seperti DeepFace untuk pengenalan wajah guna memastikan prosedur masuk/keluar yang akurat dan menghasilkan laporan terintegrasi."
+          "description": "Dirancang untuk PT Pesonna Optima Jasa untuk mengelola catatan kehadiran karyawan, memanfaatkan teknologi seperti DeepFace untuk face recognition guna memastikan akurasi dan laporan terintegrasi."
         },
         "folur": {
           "title": "Platform Global Folur",
-          "description": "Inisiatif Sistem Pangan, Penggunaan Lahan, dan Restorasi (FOLUR) bertujuan untuk mengubah praktik pertanian dan penggunaan lahan untuk mendukung keberlanjutan, ketahanan pangan, dan restorasi lahan pertanian di 27 negara."
+          "description": "Inisiatif Sistem Pangan, Penggunaan Lahan, dan Restorasi (FOLUR) bertujuan mengubah praktik pertanian dan penggunaan lahan untuk mendukung keberlanjutan dan ketahanan pangan di 27 negara."
         },
         "tekmira": {
           "title": "tekMIRA-Uji Profisiensi",
-          "description": "Program uji profisiensi untuk mengevaluasi kinerja laboratorium peserta dalam pengujian batubara, abu batubara, mineral nikel laterit, bauksit, dan bijih besi, memastikan kepatuhan terhadap standar ISO 17025."
+          "description": "Program uji profisiensi untuk mengevaluasi kinerja laboratorium peserta dalam pengujian batubara dan mineral, memastikan kepatuhan terhadap standar ISO 17025."
         },
         "malaria": {
           "title": "Website Malaria dengan Drupal 9.5",
-          "description": "Dikembangkan untuk Program HEART UNDP untuk mendukung upaya nasional dalam mengatasi ketimpangan kesehatan. Berfokus pada penguatan Mekanisme Koordinasi Negara Global Fund untuk AIDS, Tuberkulosis, dan Malaria (GFATM)."
+          "description": "Dikembangkan untuk Program HEART UNDP untuk mendukung upaya nasional mengatasi ketimpangan kesehatan. Fokus pada penguatan Mekanisme Koordinasi Negara Global Fund untuk AIDS, TBC, dan Malaria."
         },
         "slide_babel": {
           "title": "Slide Babel - Sistem Informasi Perikanan",
-          "description": "Platform layanan informasi perikanan yang menyediakan data tentang Harga Ikan, Ketersediaan, Jenis Ikan Budidaya, Lokasi Pemasaran, dan Fasilitas Penyimpanan Dingin untuk Dinas Kelautan dan Perikanan Provinsi Bangka Belitung."
+          "description": "Platform layanan informasi perikanan yang menyediakan data Harga Ikan, Ketersediaan, dan Lokasi Pemasaran untuk Dinas Kelautan dan Perikanan Provinsi Bangka Belitung."
         },
         "rabbani": {
           "title": "Rabbani Web Commerce",
-          "description": "Platform e-commerce yang mengkhususkan diri pada produk berbasis Islam. Dirancang untuk memberikan pengalaman berbelanja yang nyaman dan aman dengan fitur yang selaras dengan nilai-nilai Islam dan praktik produksi etis."
+          "description": "Platform e-commerce khusus produk Islami. Memberikan pengalaman belanja yang nyaman dan aman dengan fitur yang selaras dengan nilai-nilai Islam."
         },
         "clove": {
           "title": "Dashboard Analitik Clove",
-          "description": "Alat Analitik Website untuk Penelitian statistik Clove. Fitur Manajemen Pengguna/Peran, Manajemen Langganan, dan modul statistik khusus seperti Uji Signifikan, Uji Proporsi, dan Peta Merek."
+          "description": "Alat Analitik Website untuk penelitian statistik Clove. Fitur User Management, Subscription Management, dan modul statistik khusus."
         },
         "koni_atlet": {
           "title": "Manajemen Atlet Koni Jabar",
-          "description": "Platform yang mengintegrasikan data atlet, program pelatihan, dan prestasi olahraga di Jawa Barat. Sumber informasi komprehensif untuk melacak atlet dan program pembinaan."
+          "description": "Platform yang mengintegrasikan data atlet, program latihan, dan prestasi olahraga di Jawa Barat. Sumber informasi komprehensif untuk tracking atlet."
         },
         "starsender": {
           "title": "Plugin Starsender untuk WHMCS",
-          "description": "Integrasi mulus API WhatsApp ke dalam platform WHMCS. Memungkinkan pengiriman pesan WhatsApp langsung dari dasbor WHMCS untuk komunikasi klien yang efisien."
+          "description": "Integrasi seamless API WhatsApp ke platform WHMCS. Memungkinkan pengiriman pesan WhatsApp langsung dari dashboard WHMCS."
         },
         "favori": {
           "title": "Favori App V2",
-          "description": "Dasbor sistem informasi untuk penggunaan internal Inacookies. Memungkinkan pemantauan data penjualan, metrik produksi, tingkat inventaris, dan umpan balik pelanggan dengan visualisasi real-time."
+          "description": "Dashboard sistem informasi untuk internal Inacookies. Memantau data penjualan, produksi, stok, dan feedback pelanggan secara real-time."
         },
         "mtre3": {
           "title": "MTRE3 Insentif Surya Atap",
-          "description": "Platform online untuk aplikasi hibah Insentif Listrik Surya Atap (PLTS Atap), disediakan oleh Sustainable Energy Fund (SEF) di bawah proyek MTRE3 (UNDP & Pemerintah Indonesia)."
+          "description": "Platform online untuk aplikasi hibah Insentif Listrik Surya Atap (PLTS Atap), disediakan oleh Sustainable Energy Fund (SEF) di bawah proyek MTRE3."
         },
         "koni_dashboard": {
           "title": "Dashboard Koni Jabar",
-          "description": "Dasbor untuk Pusat Data Sumber Daya Olahraga Jawa Barat. Menyediakan visualisasi interaktif mengenai atlet, program pelatihan, dan prestasi olahraga."
+          "description": "Dashboard untuk Pusat Data Sumber Daya Olahraga Jawa Barat. Menyediakan visualisasi interaktif mengenai atlet dan prestasi olahraga."
         },
         "koni_website": {
           "title": "Website Koni Jabar",
-          "description": "Pemeliharaan, peningkatan fitur, dan perbaikan bug untuk website Koni Jabar untuk memastikan kinerja optimal dan pengalaman pengguna yang lebih baik."
+          "description": "Maintenance, fitur baru, dan bug fixing untuk website Koni Jabar guna memastikan performa optimal dan user experience yang lebih baik."
         },
         "frozen_food": {
           "title": "Dashboard & E-Commerce Makanan Beku",
-          "description": "Sistem komprehensif yang menggabungkan kemampuan e-commerce, pergudangan, pembelian, dan stok opname. Merampingkan operasional dan mengelola inventaris untuk ritel makanan beku."
+          "description": "Sistem komprehensif yang menggabungkan e-commerce, warehousing, purchasing, dan stock opname. Merampingkan operasional ritel makanan beku."
         },
         "undss": {
           "title": "Dashboard UNDSS",
-          "description": "Perbaikan bug dan pengembangan fitur baru untuk Dashboard UNDSS. Memproses data insiden menjadi bank terpusat untuk analisis spasial dan manajemen risiko."
+          "description": "Bug fixing dan pengembangan fitur baru untuk Dashboard UNDSS. Memproses data insiden menjadi bank terpusat untuk analisis spasial dan manajemen risiko."
         },
         "zafaa": {
           "title": "Zafaa POS",
-          "description": "Aplikasi POS khusus untuk ritel makanan bekku. Fitur pemantauan stok, integrasi pembayaran kartu, dan manajemen pelanggan untuk meningkatkan efisiensi ritel."
+          "description": "Aplikasi POS khusus untuk ritel makanan beku. Fitur stok monitoring, integrasi pembayaran, dan manajemen pelanggan."
         }
       }
     },
     "stack": {
-      "core": "Stack Utama Saya",
-      "other": "Teknologi Lain yang Saya Gunakan"
+      "core": "Main Stack",
+      "other": "Other Tech"
     }
   },
   "projectsPage": {
-    "title": "Proyek Unggulan",
-    "description": "Daftar lengkap proyek yang telah saya sampaikan, mulai dari perencanaan sumber daya perusahaan hingga dasbor khusus dan platform e-commerce.",
+    "title": "Projects That Deliver Real Impact.",
+    "description": "Project-project inti yang menunjukkan bagaimana saya memecahkan masalah nyata. Meningkatkan performa, menyederhanakan proses, dan menciptakan solusi yang tahan lama.",
     "getInTouch": "Hubungi Saya"
   },
   "journeyPage": {
-    "title": "Perjalanan Profesional",
-    "description": "Garis waktu jalur karier saya, peran kunci, dan pencapaian penting.",
+    "title": "Every Role, Every Challenge",
+    "description": "Timeline karir saya, key role, dan pencapaian penting.",
     "getInTouch": "Hubungi Saya"
   },
   "servicesPage": {
-    "title": "Layanan Implementasi ERP",
+    "title": "ERP Implementation Services",
     "description": "Solusi ERP komprehensif yang disesuaikan dengan kebutuhan bisnis Anda.",
     "getInTouch": "Hubungi Saya",
     "items": {
       "finance": {
-        "title": "Keuangan",
-        "description": "Merampingkan operasional keuangan dengan faktur terintegrasi, pembayaran tagihan, dan laporan akuntansi komprehensif. Mengotomatiskan rekonsiliasi dan memastikan kepatuhan keuangan."
+        "title": "Finance",
+        "description": "Merampingkan operasional keuangan dengan invoicing terintegrasi, pembayaran tagihan, dan laporan akuntansi komprehensif. Automasi rekonsiliasi dan kepatuhan keuangan."
       },
       "supplyChain": {
-        "title": "Rantai Pasokan",
-        "description": "Mengoptimalkan arus inventaris dengan pengadaan dan penjualan terintegrasi. Mengelola tingkat stok, mengotomatiskan pengisian ulang, dan melacak pergerakan produk di seluruh gudang."
+        "title": "Supply Chain",
+        "description": "Mengoptimalkan arus inventory dengan procurement dan sales terintegrasi. Mengelola stok, automasi replenishment, dan tracking produk di seluruh gudang."
       },
       "manufacturing": {
-        "title": "Manufaktur",
-        "description": "Mengelola siklus hidup produksi lengkap dengan Bill of Materials (BOM) dan Perintah Kerja. Mengintegrasikan manufaktur dengan inventaris dan pengadaan untuk efisiensi tepat waktu."
+        "title": "Manufacturing",
+        "description": "Mengelola siklus produksi lengkap dengan Bill of Materials (BOM) dan Work Orders. Integrasi manufaktur dengan inventory dan procurement untuk efisiensi."
       },
       "ecommerce": {
-        "title": "Rantai Pasokan & E-commerce",
-        "description": "Menyatukan penjualan online dan offline dengan platform e-commerce yang terintegrasi penuh. Menyinkronkan inventaris secara real-time, mengelola pengiriman, dan menerima pembayaran online dengan lancar."
+        "title": "Supply Chain & E-commerce",
+        "description": "Menyatukan penjualan online dan offline dengan platform e-commerce terintegrasi. Sinkronisasi inventory real-time, manajemen pengiriman, dan pembayaran online."
       },
       "hr": {
-        "title": "Sumber Daya Manusia",
-        "description": "Memusatkan manajemen karyawan dari rekrutmen hingga penggajian. Melacak kehadiran, mengelola permintaan cuti, dan mengotomatiskan pemrosesan penggajian dengan kepatuhan peraturan lokal."
+        "title": "Human Resources",
+        "description": "Sentralisasi manajemen karyawan dari rekrutmen hingga payroll. Tracking kehadiran, manajemen cuti, dan automasi payroll sesuai regulasi lokal."
       },
       "website": {
-        "title": "Website Perusahaan",
-        "description": "Membangun website perusahaan yang profesional dan responsif dengan pembuat drag-and-drop yang mudah digunakan. Menampilkan layanan dan mengelola konten tanpa coding."
+        "title": "Corporate Website",
+        "description": "Membangun website perusahaan yang profesional dan responsif dengan builder drag-and-drop. Menampilkan layanan dan mengelola konten tanpa coding."
       },
       "elearning": {
         "title": "E-Learning",
-        "description": "Membuat kursus online dan sertifikasi yang menarik. Mengelola kemajuan siswa, kuis, dan penyampaian konten melalui Sistem Manajemen Pembelajaran (LMS) khusus."
+        "description": "Membuat kursus online dan sertifikasi yang menarik. Mengelola progress siswa, kuis, dan konten melalui LMS khusus."
       },
       "project": {
-        "title": "Manajemen Proyek",
-        "description": "Merencanakan dan melacak proyek dengan tugas, lembar waktu, dan pencapaian. Mengintegrasikan dengan penjualan dan penagihan untuk mengelola profitabilitas proyek dan alokasi sumber daya."
+        "title": "Project Management",
+        "description": "Merencanakan dan tracking project dengan task, timesheet, dan milestone. Integrasi dengan sales dan billing untuk profitabilitas project."
       },
       "custom": {
-        "title": "Pengembangan Modul Kustom",
-        "description": "Pengembangan modul Odoo yang disesuaikan untuk memenuhi kebutuhan bisnis spesifik yang tidak dapat dicakup oleh modul standar. Termasuk integrasi API dan otomatisasi alur kerja."
+        "title": "Custom Module Development",
+        "description": "Pengembangan modul Odoo custom untuk kebutuhan bisnis spesifik yang tidak tercover modul standar. Termasuk integrasi API dan workflow automation."
       },
       "training": {
-        "title": "Pelatihan Pengguna",
-        "description": "Sesi pelatihan komprehensif untuk administrator dan pengguna akhir. Termasuk dokumentasi, lokakarya praktis, dan pedoman praktik terbaik untuk penggunaan sistem yang efisien."
+        "title": "User Training",
+        "description": "Sesi training komprehensif untuk admin dan end-user. Termasuk dokumentasi, workshop, dan best practice guidelines."
       }
     },
     "modules": {
-      "sales": "Penjualan",
-      "purchase": "Pembelian",
-      "accounting": "Akuntansi",
-      "inventory": "Inventaris",
-      "manufacturing": "Manufaktur",
-      "websiteBuilder": "Pembuat Website",
-      "paymentShipping": "Integrasi Gateway Pembayaran & Pengiriman",
-      "employees": "Karyawan",
-      "attendance": "Kehadiran",
-      "timeOff": "Cuti",
-      "payroll": "Penggajian",
-      "websiteProfile": "Profil Perusahaan Website",
+      "sales": "Sales",
+      "purchase": "Purchase",
+      "accounting": "Accounting",
+      "inventory": "Inventory",
+      "manufacturing": "Manufacturing",
+      "websiteBuilder": "Website Builder",
+      "paymentShipping": "Payment & Shipping Integration",
+      "employees": "Employees",
+      "attendance": "Attendance",
+      "timeOff": "Time Off",
+      "payroll": "Payroll",
+      "websiteProfile": "Website Profile",
       "elearning": "E-Learning",
-      "tests": "Tes",
-      "project": "Proyek",
-      "timesheet": "Lembar Waktu",
+      "tests": "Tests",
+      "project": "Project",
+      "timesheet": "Timesheet",
       "python": "Python",
       "xml": "XML",
       "postgresql": "PostgreSQL",
-      "apiIntegration": "Integrasi API",
-      "functionalTraining": "Pelatihan Fungsional",
-      "technicalTraining": "Pelatihan Teknis",
-      "documentation": "Dokumentasi"
+      "apiIntegration": "API Integration",
+      "functionalTraining": "Functional Training",
+      "technicalTraining": "Technical Training",
+      "documentation": "Documentation"
     }
   }
 }
