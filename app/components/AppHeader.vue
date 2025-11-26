@@ -5,26 +5,28 @@ const { activeHeadings, updateHeadings } = useScrollspy()
 
 const { t } = useI18n()
 
+const localePath = useLocalePath()
+
 const items = computed(() => [{
   label: t('nav.about'),
-  to: '/#steps',
-  active: activeHeadings.value.includes('steps') && route.path === '/'
+  to: localePath('/#steps'),
+  active: activeHeadings.value.includes('steps') && route.path === localePath('/')
 }, {
   label: t('nav.skills'),
-  to: '/#features',
-  active: activeHeadings.value.includes('features') && route.path === '/'
+  to: localePath('/#features'),
+  active: activeHeadings.value.includes('features') && route.path === localePath('/')
 }, {
   label: t('nav.journey'),
-  to: '/journey',
-  active: route.path === '/journey'
+  to: localePath('/journey'),
+  active: route.path === localePath('/journey')
 }, {
   label: t('nav.services'),
-  to: '/services',
-  active: route.path === '/services'
+  to: localePath('/services'),
+  active: route.path === localePath('/services')
 }, {
   label: t('nav.projects'),
-  to: '/projects',
-  active: route.path === '/projects'
+  to: localePath('/projects'),
+  active: route.path === localePath('/projects')
 }])
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
@@ -39,7 +41,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
+      <NuxtLink :to="localePath('/')">
         Muhammad Rheza Alfin
       </NuxtLink>
     </template>
