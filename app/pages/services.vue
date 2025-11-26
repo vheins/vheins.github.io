@@ -1,91 +1,89 @@
 <script setup lang="ts">
-const services = [
+const { t } = useI18n()
+
+const services = computed(() => [
   {
-    title: 'Finance',
-    description: 'Streamline financial operations with integrated invoicing, bill payments, and comprehensive accounting reports. Automate reconciliation and ensure financial compliance.',
+    title: t('servicesPage.items.finance.title'),
+    description: t('servicesPage.items.finance.description'),
     modules: ['Sales', 'Purchase', 'Accounting'],
     icon: 'i-lucide-banknote'
   },
   {
-    title: 'Supply Chain',
-    description: 'Optimize inventory flows with integrated procurement and sales. Manage stock levels, automate replenishment, and track product movements across warehouses.',
+    title: t('servicesPage.items.supplyChain.title'),
+    description: t('servicesPage.items.supplyChain.description'),
     modules: ['Sales', 'Purchase', 'Accounting', 'Inventory'],
     icon: 'i-lucide-truck'
   },
   {
-    title: 'Manufacturing',
-    description: 'Manage complete production lifecycles with Bill of Materials (BOMs) and Work Orders. Integrate manufacturing with inventory and procurement for just-in-time efficiency.',
+    title: t('servicesPage.items.manufacturing.title'),
+    description: t('servicesPage.items.manufacturing.description'),
     modules: ['Sales', 'Purchase', 'Accounting', 'Inventory', 'Manufacturing'],
     icon: 'i-lucide-factory'
   },
   {
-    title: 'Supply Chain & Ecommerce',
-    description: 'Unify online and offline sales with a fully integrated e-commerce platform. Sync inventory in real-time, manage shipping, and accept online payments seamlessly.',
+    title: t('servicesPage.items.ecommerce.title'),
+    description: t('servicesPage.items.ecommerce.description'),
     modules: ['Sales', 'Purchase', 'Accounting', 'Inventory', 'Website Builder', 'Integrasi Payment & Shipping Gateway'],
     icon: 'i-lucide-shopping-bag'
   },
   {
-    title: 'Human Resources',
-    description: 'Centralize employee management from recruitment to payroll. Track attendance, manage leave requests, and automate payroll processing with local regulation compliance.',
+    title: t('servicesPage.items.hr.title'),
+    description: t('servicesPage.items.hr.description'),
     modules: ['Employees', 'Attendance', 'Time Off', 'Payroll'],
     icon: 'i-lucide-users'
   },
   {
-    title: 'Website Company',
-    description: 'Build a professional, responsive corporate website with an easy-to-use drag-and-drop builder. Showcase services and manage content without coding.',
+    title: t('servicesPage.items.website.title'),
+    description: t('servicesPage.items.website.description'),
     modules: ['Website Company Profile'],
     icon: 'i-lucide-globe'
   },
   {
-    title: 'E-Learning',
-    description: 'Create engaging online courses and certifications. Manage student progress, quizzes, and content delivery through a dedicated Learning Management System (LMS).',
+    title: t('servicesPage.items.elearning.title'),
+    description: t('servicesPage.items.elearning.description'),
     modules: ['Website Builder', 'E-Learning', 'Tests'],
     icon: 'i-lucide-graduation-cap'
   },
   {
-    title: 'Project Management',
-    description: 'Plan and track projects with tasks, timesheets, and milestones. Integrate with sales and billing to manage project profitability and resource allocation.',
+    title: t('servicesPage.items.project.title'),
+    description: t('servicesPage.items.project.description'),
     modules: ['Project', 'Timesheet', 'Sales', 'Purchase', 'Accounting'],
     icon: 'i-lucide-kanban'
   },
   {
-    title: 'Custom Modul Development',
-    description: 'Tailored Odoo module development to meet specific business requirements that standard modules cannot cover. Includes API integrations and workflow automation.',
+    title: t('servicesPage.items.custom.title'),
+    description: t('servicesPage.items.custom.description'),
     modules: ['Python', 'XML', 'PostgreSQL', 'API Integration'],
     icon: 'i-lucide-code-2'
   },
   {
-    title: 'User Training',
-    description: 'Comprehensive training sessions for administrators and end-users. Includes documentation, hands-on workshops, and best practice guidelines for efficient system usage.',
+    title: t('servicesPage.items.training.title'),
+    description: t('servicesPage.items.training.description'),
     modules: ['Functional Training', 'Technical Training', 'Documentation'],
     icon: 'i-lucide-presentation'
   }
-]
+])
 
 useSeoMeta({
   title: 'Services - Muhammad Rheza Alfin',
   description: 'ERP Implementation and IT Services'
 })
 
-const links = [
+const links = computed(() => [
   {
-    label: 'Get in Touch',
+    label: t('servicesPage.getInTouch'),
     icon: 'i-lucide-mail',
     color: 'primary',
     to: 'mailto:m.rheza.alfin@gmail.com',
     size: 'xl'
   }
-]
+])
 </script>
 
 <template>
   <div>
-    <UPageHero
-      title="Service Implementasi ERP"
-      description="Comprehensive ERP solutions tailored to your business needs."
-      align="center"
-      :links="links"
-    >
+    <UPageHero :title="t('servicesPage.title')" :description="t('servicesPage.description')" align="center"
+      :links="links">
       <template #top>
         <HeroBackground />
       </template>
@@ -93,22 +91,11 @@ const links = [
 
     <UContainer class="mt-24">
       <UPageGrid class="pb-24">
-        <UPageCard
-          v-for="(service, index) in services"
-          :key="index"
-          :title="service.title"
-          :description="service.description"
-          :icon="service.icon"
-        >
+        <UPageCard v-for="(service, index) in services" :key="index" :title="service.title"
+          :description="service.description" :icon="service.icon">
           <template #footer>
             <div class="flex flex-wrap gap-2">
-              <UBadge
-                v-for="modul in service.modules"
-                :key="modul"
-                color="neutral"
-                variant="subtle"
-                size="sm"
-              >
+              <UBadge v-for="modul in service.modules" :key="modul" color="neutral" variant="subtle" size="sm">
                 {{ modul }}
               </UBadge>
             </div>

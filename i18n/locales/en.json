@@ -1,10 +1,312 @@
 {
-    "nav": {
-        "about": "About",
-        "skills": "Skills",
-        "journey": "Journey",
-        "services": "Services",
-        "projects": "Projects",
-        "contact": "Contact"
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "journey": "Journey",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "common": {
+    "fullTime": "Full-time"
+  },
+  "cta": {
+    "title_prefix": "Let's Build Something",
+    "title_highlight": "Together",
+    "title_suffix": "",
+    "description": "Let's collaborate to build something exceptional. I'm ready to partner with you to transform your ideas into impactful solutions. Together, we can create technology that drives real progress.",
+    "getInTouch": "Get in Touch",
+    "viewGithub": "View GitHub"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "technologies": "Technologies",
+    "connect": "Connect",
+    "builtWith": "Built with Nuxt UI • © {year} Muhammad Rheza Alfin"
+  },
+  "journey": {
+    "title_prefix": "My",
+    "title_highlight": "Journey",
+    "title_suffix": "",
+    "description": "From inventory control to cloud infrastructure - every step has built who I am today.",
+    "experiences": {
+      "ids": {
+        "company": "PT. Inovasi Dinamika Solusi",
+        "location": "Bandung, West Java, Indonesia",
+        "roles": {
+          "lead": {
+            "title": "Software Development Team Lead",
+            "description": "Leading the software development team, managing project timelines, and overseeing the delivery of enterprise solutions."
+          },
+          "dev": {
+            "title": "Full-stack Developer",
+            "description": "Developed and maintained full-stack applications using Laravel, Vue.js, and Docker."
+          }
+        }
+      },
+      "retail": {
+        "company": "Ritel Makanan Beku",
+        "location": "Bandung, West Java, Indonesia",
+        "roles": {
+          "dev": {
+            "title": "Full-stack Developer",
+            "description": "Built comprehensive e-commerce and POS systems, managing the full development lifecycle."
+          }
+        }
+      },
+      "favori": {
+        "company": "PT. Favori Corp Sedaya",
+        "location": "Bandung, West Java, Indonesia",
+        "roles": {
+          "sales": {
+            "title": "Head Of Sales Operations",
+            "description": "Managed sales operations, optimized processes, and oversaw team performance."
+          }
+        }
+      },
+      "indomaret": {
+        "company": "Indomaret Group",
+        "location": "Bandung, West Java, Indonesia",
+        "roles": {
+          "supervisor": {
+            "title": "Inventory Control Supervisor",
+            "description": "Supervised inventory control operations, ensuring accuracy and efficiency in stock management."
+          },
+          "analyst": {
+            "title": "Inventory Control Analyst",
+            "description": "Analyzed inventory data to identify trends, discrepancies, and opportunities for improvement."
+          },
+          "clerk": {
+            "title": "Inventory Control Clerk",
+            "description": "Performed daily inventory checks and maintained accurate stock records."
+          }
+        }
+      }
     }
+  },
+  "home": {
+    "title_prefix": "From Retail Floors to",
+    "title_highlight": "Cloud Servers",
+    "title_suffix": "",
+    "description": "Full-stack Developer & IT Consultant specializing in performance tuning, system integration, and automation. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.",
+    "hero": {
+      "viewProjects": "View Projects",
+      "github": "GitHub",
+      "getInTouch": "Get in Touch"
+    },
+    "transformation": {
+      "title_prefix": "A Journey of",
+      "title_highlight": "Transformation",
+      "title_suffix": "",
+      "description": "Nearly a decade in retail operations taught me to think analytically, pay attention to detail, and focus on preventing errors and inefficiencies. Today, I apply these same principles to software development.",
+      "features": {
+        "analytical": {
+          "title": "Analytical Thinking",
+          "description": "Trained through years of investigating irregularities and operational misuse at Indomaret Group. I approach every problem systematically, identifying root causes and implementing preventive solutions."
+        },
+        "detail": {
+          "title": "Attention to Detail",
+          "description": "From managing inventory accuracy across multiple stores to writing clean, maintainable code - precision matters. Every line of code, every configuration, every deployment is carefully considered."
+        },
+        "improvement": {
+          "title": "Process Improvement",
+          "description": "Whether optimizing stock reporting workflows or architecting scalable systems, I'm driven by efficiency. I believe technology should solve real problems and improve real processes."
+        }
+      }
+    },
+    "expertise": {
+      "title_prefix": "Technical",
+      "title_highlight": "Expertise",
+      "title_suffix": "",
+      "description": "Building modern, scalable solutions with a focus on performance, maintainability, and real-world impact.",
+      "items": {
+        "backend": {
+          "title": "Backend Development",
+          "description": "Laravel and NestJS frameworks with PostgreSQL, MySQL, and Redis for robust, high-performance applications."
+        },
+        "frontend": {
+          "title": "Frontend Development",
+          "description": "Vue.js, Nuxt, and Next.js for building clean, reactive user interfaces with modern JavaScript best practices."
+        },
+        "performance": {
+          "title": "Performance Optimization",
+          "description": "Leveraging Soketi, Octane, and Redis for real-time features and blazing-fast response times."
+        },
+        "devops": {
+          "title": "DevOps & Infrastructure",
+          "description": "Docker, Nginx, Kong, HAProxy, and Patroni for scalable, reliable deployments and high availability."
+        },
+        "integration": {
+          "title": "Enterprise Integration",
+          "description": "ERP systems integration with Odoo, building bridges between business operations and technology."
+        },
+        "leadership": {
+          "title": "Team Leadership",
+          "description": "Leading development teams, mentoring developers, and fostering a culture of continuous learning and excellence."
+        }
+      }
+    },
+    "projects": {
+      "title_prefix": "Featured",
+      "title_highlight": "Projects",
+      "title_suffix": "",
+      "description": "A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms.",
+      "items": {
+        "ids_starter": {
+          "title": "IDS Starter Kit",
+          "description": "The FullStack Application Starter Kit utilizes the Laravel framework, VueJS, UI Kit, and is Docker-friendly. This comprehensive starter kit provides developers with a solid foundation to kickstart full-stack application development."
+        },
+        "sakti": {
+          "title": "Sistem Absensi dan Laporan Terintegrasi (Sakti)",
+          "description": "Designed for PT Pesonna Optima Jasa to manage employee attendance records, utilizing technologies like DeepFace for facial recognition to ensure accurate clock-in/out procedures and generating integrated reports."
+        },
+        "folur": {
+          "title": "Folur Global Platform",
+          "description": "The Food Systems, Land Use, and Restoration (FOLUR) initiative aims to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across 27 countries."
+        },
+        "tekmira": {
+          "title": "tekMIRA-Uji Profisiensi",
+          "description": "Proficiency testing program to evaluate the performance of participant laboratories in testing coal, coal ash, laterite nickel minerals, bauxite, and iron ore, ensuring compliance with ISO 17025 standards."
+        },
+        "malaria": {
+          "title": "Malaria Website with Drupal 9.5",
+          "description": "Developed for UNDP HEART Program to support national efforts in addressing health inequality. Focuses on strengthening the Global Fund for AIDS, Tuberculosis and Malaria (GFATM) Country Coordinating Mechanisms."
+        },
+        "slide_babel": {
+          "title": "Slide Babel - Sistem Informasi Perikanan",
+          "description": "Fisheries information services platform providing data on Fish Price, Availability, Cultivated Fish Types, Marketing Locations, and Cold Storage Facilities for the Marine and Fisheries Service of Bangka Belitung Province."
+        },
+        "rabbani": {
+          "title": "Rabbani Web Commerce",
+          "description": "E-commerce platform specializing in Islamic-based products. Designed to provide a convenient and secure shopping experience with features aligning with Islamic values and ethical production practices."
+        },
+        "clove": {
+          "title": "Clove Analytics Dashboard",
+          "description": "Website Analytic Tool for Clove statistical Research. Features User/Role Management, Subscription Management, and specific statistical modules like Significant Test, Proportion Test, and Brand Maps."
+        },
+        "koni_atlet": {
+          "title": "Koni Jabar Atlet Management",
+          "description": "Platform integrating athlete data, training programs, and sports achievements in West Java. A comprehensive source of information for tracking athletes and coaching programs."
+        },
+        "starsender": {
+          "title": "Starsender Plugin for WHMCS",
+          "description": "Seamless integration of WhatsApp API into the WHMCS platform. Enables sending WhatsApp messages directly from the WHMCS dashboard for efficient client communication."
+        },
+        "favori": {
+          "title": "Favori App V2",
+          "description": "Information system dashboard for Inacookies internal use. Allows monitoring of sales data, production metrics, inventory levels, and customer feedback with real-time visualization."
+        },
+        "mtre3": {
+          "title": "MTRE3 Insentif Surya Atap",
+          "description": "Online platform for Roof Solar Power Incentive (PLTS Atap), provided by the Sustainable Energy Fund (SEF) under the MTRE3 project (UNDP & Govt of Indonesia)."
+        },
+        "koni_dashboard": {
+          "title": "Koni Jabar Dashboard",
+          "description": "Dashboard for West Java Sports Resource Data Center. Provides interactive visualizations regarding athletes, training programs, and sporting achievements."
+        },
+        "koni_website": {
+          "title": "Koni Jabar Website",
+          "description": "Maintenance, feature enhancements, and bug fixing for the Koni Jabar website to ensure optimal performance and improved user experience."
+        },
+        "frozen_food": {
+          "title": "Frozen Food Dashboard & E-Commerce",
+          "description": "Comprehensive system combining e-commerce, warehousing, purchasing, and stocktaking capabilities. Streamlines operations and manages inventory for frozen food retail."
+        },
+        "undss": {
+          "title": "UNDSS Dashboard",
+          "description": "Bug fixing and new feature development for UNDSS Dashboard. Processes incident data into a centralized bank for spatial analysis and risk management."
+        },
+        "zafaa": {
+          "title": "Zafaa POS",
+          "description": "Specialized POS application for frozen food retail. Features stock monitoring, card payment integration, and customer management to improve retail efficiency."
+        }
+      }
+    },
+    "stack": {
+      "core": "My Core Stack",
+      "other": "Other Technologies I Use"
+    }
+  },
+  "projectsPage": {
+    "title": "Featured Projects",
+    "description": "A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms.",
+    "getInTouch": "Get in Touch"
+  },
+  "journeyPage": {
+    "title": "Professional Journey",
+    "description": "A timeline of my career path, key roles, and significant milestones.",
+    "getInTouch": "Get in Touch"
+  },
+  "servicesPage": {
+    "title": "ERP Implementation Services",
+    "description": "Comprehensive ERP solutions tailored to your business needs.",
+    "getInTouch": "Get in Touch",
+    "items": {
+      "finance": {
+        "title": "Finance",
+        "description": "Streamline financial operations with integrated invoicing, bill payments, and comprehensive accounting reports. Automate reconciliation and ensure financial compliance."
+      },
+      "supplyChain": {
+        "title": "Supply Chain",
+        "description": "Optimize inventory flows with integrated procurement and sales. Manage stock levels, automate replenishment, and track product movements across warehouses."
+      },
+      "manufacturing": {
+        "title": "Manufacturing",
+        "description": "Manage complete production lifecycles with Bill of Materials (BOMs) and Work Orders. Integrate manufacturing with inventory and procurement for just-in-time efficiency."
+      },
+      "ecommerce": {
+        "title": "Supply Chain & Ecommerce",
+        "description": "Unify online and offline sales with a fully integrated e-commerce platform. Sync inventory in real-time, manage shipping, and accept online payments seamlessly."
+      },
+      "hr": {
+        "title": "Human Resources",
+        "description": "Centralize employee management from recruitment to payroll. Track attendance, manage leave requests, and automate payroll processing with local regulation compliance."
+      },
+      "website": {
+        "title": "Website Company",
+        "description": "Build a professional, responsive corporate website with an easy-to-use drag-and-drop builder. Showcase services and manage content without coding."
+      },
+      "elearning": {
+        "title": "E-Learning",
+        "description": "Create engaging online courses and certifications. Manage student progress, quizzes, and content delivery through a dedicated Learning Management System (LMS)."
+      },
+      "project": {
+        "title": "Project Management",
+        "description": "Plan and track projects with tasks, timesheets, and milestones. Integrate with sales and billing to manage project profitability and resource allocation."
+      },
+      "custom": {
+        "title": "Custom Modul Development",
+        "description": "Tailored Odoo module development to meet specific business requirements that standard modules cannot cover. Includes API integrations and workflow automation."
+      },
+      "training": {
+        "title": "User Training",
+        "description": "Comprehensive training sessions for administrators and end-users. Includes documentation, hands-on workshops, and best practice guidelines for efficient system usage."
+      }
+    },
+    "modules": {
+      "sales": "Sales",
+      "purchase": "Purchase",
+      "accounting": "Accounting",
+      "inventory": "Inventory",
+      "manufacturing": "Manufacturing",
+      "websiteBuilder": "Website Builder",
+      "paymentShipping": "Payment & Shipping Gateway Integration",
+      "employees": "Employees",
+      "attendance": "Attendance",
+      "timeOff": "Time Off",
+      "payroll": "Payroll",
+      "websiteProfile": "Website Company Profile",
+      "elearning": "E-Learning",
+      "tests": "Tests",
+      "project": "Project",
+      "timesheet": "Timesheet",
+      "python": "Python",
+      "xml": "XML",
+      "postgresql": "PostgreSQL",
+      "apiIntegration": "API Integration",
+      "functionalTraining": "Functional Training",
+      "technicalTraining": "Technical Training",
+      "documentation": "Documentation"
+    }
+  }
 }

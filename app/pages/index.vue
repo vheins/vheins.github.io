@@ -1,11 +1,13 @@
 <script setup lang="ts">
-const page = {
-  title: 'From Retail Floors to <span class="text-primary">Cloud Servers</span>',
-  description: 'Full-stack Developer & IT Consultant specializing in performance tuning, system integration, and automation. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.',
+const { t } = useI18n()
+
+const page = computed(() => ({
+  title: '',
+  description: t('home.description'),
   hero: {
     links: [
       {
-        label: 'View Projects',
+        label: t('home.hero.viewProjects'),
         icon: 'i-lucide-folder-git-2',
         trailing: true,
         color: 'primary',
@@ -13,7 +15,7 @@ const page = {
         size: 'xl'
       },
       {
-        label: 'GitHub',
+        label: t('home.hero.github'),
         icon: 'i-simple-icons-github',
         size: 'xl',
         color: 'neutral',
@@ -22,7 +24,7 @@ const page = {
         target: '_blank'
       },
       {
-        label: 'Get in Touch',
+        label: t('home.hero.getInTouch'),
         icon: 'i-lucide-mail',
         size: 'xl',
         color: 'primary',
@@ -32,67 +34,67 @@ const page = {
     ]
   },
   section: {
-    title: 'A Journey of <span class="text-primary">Transformation</span>',
-    description: 'Nearly a decade in retail operations taught me to think analytically, pay attention to detail, and focus on preventing errors and inefficiencies. Today, I apply these same principles to software development.',
+    title: '',
+    description: t('home.transformation.description'),
     images: {
       mobile: '/images/journey-professional.png',
       desktop: '/images/journey-professional.png'
     },
     features: [
       {
-        title: 'Analytical Thinking',
-        description: 'Trained through years of investigating irregularities and operational misuse at Indomaret Group. I approach every problem systematically, identifying root causes and implementing preventive solutions.',
+        title: t('home.transformation.features.analytical.title'),
+        description: t('home.transformation.features.analytical.description'),
         class: 'border-l border-primary pl-4'
       },
       {
-        title: 'Attention to Detail',
-        description: 'From managing inventory accuracy across multiple stores to writing clean, maintainable code - precision matters. Every line of code, every configuration, every deployment is carefully considered.',
+        title: t('home.transformation.features.detail.title'),
+        description: t('home.transformation.features.detail.description'),
         class: 'border-l border-default pt-4 pl-4'
       },
       {
-        title: 'Process Improvement',
-        description: 'Whether optimizing stock reporting workflows or architecting scalable systems, I\'m driven by efficiency. I believe technology should solve real problems and improve real processes.',
+        title: t('home.transformation.features.improvement.title'),
+        description: t('home.transformation.features.improvement.description'),
         class: 'border-l border-default pt-4 pl-4'
       }
     ]
   },
   features: {
-    title: 'Technical <span class="text-primary">Expertise</span>',
-    description: 'Building modern, scalable solutions with a focus on performance, maintainability, and real-world impact.',
+    title: '',
+    description: t('home.expertise.description'),
     features: [
       {
-        title: 'Backend Development',
-        description: 'Laravel and NestJS frameworks with PostgreSQL, MySQL, and Redis for robust, high-performance applications.',
+        title: t('home.expertise.items.backend.title'),
+        description: t('home.expertise.items.backend.description'),
         icon: 'i-lucide-server',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
-        title: 'Frontend Development',
-        description: 'Vue.js, Nuxt, and Next.js for building clean, reactive user interfaces with modern JavaScript best practices.',
+        title: t('home.expertise.items.frontend.title'),
+        description: t('home.expertise.items.frontend.description'),
         icon: 'i-lucide-layout-dashboard',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
-        title: 'Performance Optimization',
-        description: 'Leveraging Soketi, Octane, and Redis for real-time features and blazing-fast response times.',
+        title: t('home.expertise.items.performance.title'),
+        description: t('home.expertise.items.performance.description'),
         icon: 'i-lucide-zap',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
-        title: 'DevOps & Infrastructure',
-        description: 'Docker, Nginx, Kong, HAProxy, and Patroni for scalable, reliable deployments and high availability.',
+        title: t('home.expertise.items.devops.title'),
+        description: t('home.expertise.items.devops.description'),
         icon: 'i-lucide-cloud',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
-        title: 'Enterprise Integration',
-        description: 'ERP systems integration with Odoo, building bridges between business operations and technology.',
+        title: t('home.expertise.items.integration.title'),
+        description: t('home.expertise.items.integration.description'),
         icon: 'i-lucide-workflow',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       },
       {
-        title: 'Team Leadership',
-        description: 'Leading development teams, mentoring developers, and fostering a culture of continuous learning and excellence.',
+        title: t('home.expertise.items.leadership.title'),
+        description: t('home.expertise.items.leadership.description'),
         icon: 'i-lucide-users',
         ui: { leading: 'bg-accented/50 p-2 rounded-md border border-muted border-dashed' }
       }
@@ -137,137 +139,137 @@ const page = {
     ]
   },
   projects: {
-    title: 'Featured <span class="text-primary">Projects</span>',
-    description: 'A comprehensive list of projects I have delivered, ranging from enterprise resource planning to specialized dashboards and e-commerce platforms.',
+    title: '',
+    description: t('home.projects.description'),
     items: [
       {
-        title: 'IDS Starter Kit',
-        description: 'The FullStack Application Starter Kit utilizes the Laravel framework, VueJS, UI Kit, and is Docker-friendly. This comprehensive starter kit provides developers with a solid foundation to kickstart full-stack application development.',
+        title: t('home.projects.items.ids_starter.title'),
+        description: t('home.projects.items.ids_starter.description'),
         period: 'Jun 2022 - Present',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-box'
       },
       {
-        title: 'Sistem Absensi dan Laporan Terintegrasi (Sakti)',
-        description: 'Designed for PT Pesonna Optima Jasa to manage employee attendance records, utilizing technologies like DeepFace for facial recognition to ensure accurate clock-in/out procedures and generating integrated reports.',
+        title: t('home.projects.items.sakti.title'),
+        description: t('home.projects.items.sakti.description'),
         period: 'May 2024 - Jul 2025',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-fingerprint',
         image: '/images/projects/sakti.png'
       },
       {
-        title: 'Folur Global Platform',
-        description: 'The Food Systems, Land Use, and Restoration (FOLUR) initiative aims to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across 27 countries.',
+        title: t('home.projects.items.folur.title'),
+        description: t('home.projects.items.folur.description'),
         period: 'Jul 2024 - Oct 2024',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-globe',
         image: '/images/projects/folur-web.png'
       },
       {
-        title: 'tekMIRA-Uji Profisiensi',
-        description: 'Proficiency testing program to evaluate the performance of participant laboratories in testing coal, coal ash, laterite nickel minerals, bauxite, and iron ore, ensuring compliance with ISO 17025 standards.',
+        title: t('home.projects.items.tekmira.title'),
+        description: t('home.projects.items.tekmira.description'),
         period: 'Dec 2023 - Mar 2024',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-flask-conical',
         image: '/images/projects/tekmira-uprof.png'
       },
       {
-        title: 'Malaria Website with Drupal 9.5',
-        description: 'Developed for UNDP HEART Program to support national efforts in addressing health inequality. Focuses on strengthening the Global Fund for AIDS, Tuberculosis and Malaria (GFATM) Country Coordinating Mechanisms.',
+        title: t('home.projects.items.malaria.title'),
+        description: t('home.projects.items.malaria.description'),
         period: 'Apr 2023 - Sep 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-simple-icons-drupal',
         image: '/images/projects/malaria-web.png'
       },
       {
-        title: 'Slide Babel - Sistem Informasi Perikanan',
-        description: 'Fisheries information services platform providing data on Fish Price, Availability, Cultivated Fish Types, Marketing Locations, and Cold Storage Facilities for the Marine and Fisheries Service of Bangka Belitung Province.',
+        title: t('home.projects.items.slide_babel.title'),
+        description: t('home.projects.items.slide_babel.description'),
         period: 'Jul 2023 - Sep 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-fish',
         image: '/images/projects/slide-babel.png'
       },
       {
-        title: 'Rabbani Web Commerce',
-        description: 'E-commerce platform specializing in Islamic-based products. Designed to provide a convenient and secure shopping experience with features aligning with Islamic values and ethical production practices.',
+        title: t('home.projects.items.rabbani.title'),
+        description: t('home.projects.items.rabbani.description'),
         period: 'Nov 2022 - Jun 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-shopping-bag',
         image: '/images/projects/rabbani.png'
       },
       {
-        title: 'Clove Analytics Dashboard',
-        description: 'Website Analytic Tool for Clove statistical Research. Features User/Role Management, Subscription Management, and specific statistical modules like Significant Test, Proportion Test, and Brand Maps.',
+        title: t('home.projects.items.clove.title'),
+        description: t('home.projects.items.clove.description'),
         period: 'Jan 2023 - May 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-bar-chart-3',
         image: '/images/projects/clove-analytics.png'
       },
       {
-        title: 'Koni Jabar Atlet Management',
-        description: 'Platform integrating athlete data, training programs, and sports achievements in West Java. A comprehensive source of information for tracking athletes and coaching programs.',
+        title: t('home.projects.items.koni_atlet.title'),
+        description: t('home.projects.items.koni_atlet.description'),
         period: 'Jun 2022 - May 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-medal',
         image: '/images/projects/koni-jabar-atlet.png'
       },
       {
-        title: 'Starsender Plugin for WHMCS',
-        description: 'Seamless integration of WhatsApp API into the WHMCS platform. Enables sending WhatsApp messages directly from the WHMCS dashboard for efficient client communication.',
+        title: t('home.projects.items.starsender.title'),
+        description: t('home.projects.items.starsender.description'),
         period: 'Apr 2023 - Apr 2023',
         company: 'Freelance',
         icon: 'i-simple-icons-whatsapp',
         image: '/images/projects/starsender.png'
       },
       {
-        title: 'Favori App V2',
-        description: 'Information system dashboard for Inacookies internal use. Allows monitoring of sales data, production metrics, inventory levels, and customer feedback with real-time visualization.',
+        title: t('home.projects.items.favori.title'),
+        description: t('home.projects.items.favori.description'),
         period: 'Oct 2022 - Mar 2023',
         company: 'Inacookies',
         icon: 'i-lucide-layout',
         image: '/images/projects/favori-app.png'
       },
       {
-        title: 'MTRE3 Insentif Surya Atap',
-        description: 'Online platform for Roof Solar Power Incentive (PLTS Atap) grant applications, provided by the Sustainable Energy Fund (SEF) under the MTRE3 project (UNDP & Govt of Indonesia).',
+        title: t('home.projects.items.mtre3.title'),
+        description: t('home.projects.items.mtre3.description'),
         period: 'Jun 2022 - Mar 2023',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-sun'
       },
       {
-        title: 'Koni Jabar Dashboard',
-        description: 'Dashboard for West Java Sports Resource Data Center. Provides interactive visualizations regarding athletes, training programs, and sporting achievements.',
+        title: t('home.projects.items.koni_dashboard.title'),
+        description: t('home.projects.items.koni_dashboard.description'),
         period: 'Jul 2022 - Nov 2022',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-layout-dashboard',
         image: '/images/projects/koni-jabar-dashboard.png'
       },
       {
-        title: 'Koni Jabar Website',
-        description: 'Maintenance, feature enhancements, and bug fixing for the Koni Jabar website to ensure optimal performance and improved user experience.',
+        title: t('home.projects.items.koni_website.title'),
+        description: t('home.projects.items.koni_website.description'),
         period: 'Jul 2022 - Nov 2022',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-monitor',
         image: '/images/projects/konijabar-website.png'
       },
       {
-        title: 'Frozen Food Dashboard & E-Commerce',
-        description: 'Comprehensive system combining e-commerce, warehousing, purchasing, and stocktaking capabilities. Streamlines operations and manages inventory for frozen food retail.',
+        title: t('home.projects.items.frozen_food.title'),
+        description: t('home.projects.items.frozen_food.description'),
         period: 'Nov 2021 - Aug 2022',
         company: 'Ritel Makanan Beku',
         icon: 'i-lucide-snowflake'
       },
       {
-        title: 'UNDSS Dashboard',
-        description: 'Bug fixing and new feature development for UNDSS Dashboard. Processes incident data into a centralized bank for spatial analysis and risk management.',
+        title: t('home.projects.items.undss.title'),
+        description: t('home.projects.items.undss.description'),
         period: 'Jun 2022 - Jul 2022',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-shield-alert',
         image: '/images/projects/undss-dashboard.png'
       },
       {
-        title: 'Zafaa POS',
-        description: 'Specialized POS application for frozen food retail. Features stock monitoring, card payment integration, and customer management to improve retail efficiency.',
+        title: t('home.projects.items.zafaa.title'),
+        description: t('home.projects.items.zafaa.description'),
         period: 'Apr 2022 - Jun 2022',
         company: 'Ritel Makanan Beku',
         icon: 'i-lucide-shopping-cart'
@@ -292,13 +294,13 @@ const page = {
       }
     ]
   }
-}
+}))
 
 useSeoMeta({
   title: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
   ogTitle: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
-  description: page.description,
-  ogDescription: page.description,
+  description: page.value.description,
+  ogDescription: page.value.description,
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
   twitterCard: 'summary_large_image'
@@ -339,27 +341,23 @@ const otherStack = [
 <template>
   <div class="relative">
     <div class="hidden lg:block">
-      <UColorModeImage
-        light="/images/light/line-1.svg"
-        dark="/images/dark/line-1.svg"
-        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
-      />
+      <UColorModeImage light="/images/light/line-1.svg" dark="/images/dark/line-1.svg"
+        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]" />
     </div>
 
-    <UPageHero
-      :description="page.description"
-      :links="page.hero.links"
-      :ui="{
-        container: 'md:pt-18 lg:pt-20',
-        title: 'max-w-3xl mx-auto'
-      }"
-    >
+    <UPageHero :description="page.description" :links="page.hero.links" :ui="{
+      container: 'md:pt-18 lg:pt-20',
+      title: 'max-w-3xl mx-auto'
+    }">
       <template #top>
         <HeroBackground />
       </template>
 
       <template #title>
-        <span v-html="page.title" />
+        <span>
+          {{ t('home.title_prefix') }} <span class="text-primary">{{ t('home.title_highlight') }}</span>
+          {{ t('home.title_suffix') }}
+        </span>
       </template>
     </UPageHero>
 
@@ -368,22 +366,15 @@ const otherStack = [
         <!-- Favorite Stack -->
         <div class="flex flex-col items-center gap-6">
           <p class="text-sm font-semibold text-primary uppercase tracking-wider">
-            My Core Stack
+            {{ t('home.stack.core') }}
           </p>
           <div class="flex flex-wrap justify-center gap-6 lg:gap-8 max-w-4xl">
-            <UTooltip
-              v-for="tech in favoriteStack"
-              :key="tech.name"
-              :text="tech.name"
-            >
+            <UTooltip v-for="tech in favoriteStack" :key="tech.name" :text="tech.name">
               <div
-                class="flex items-center justify-center p-4 rounded-2xl bg-primary/5 dark:bg-primary/10 ring-2 ring-primary/50 dark:ring-primary/50 shadow-lg shadow-primary/10 hover:scale-110 transition-all duration-300 group"
-              >
-                <UIcon
-                  :name="tech.icon"
+                class="flex items-center justify-center p-4 rounded-2xl bg-primary/5 dark:bg-primary/10 ring-2 ring-primary/50 dark:ring-primary/50 shadow-lg shadow-primary/10 hover:scale-110 transition-all duration-300 group">
+                <UIcon :name="tech.icon"
                   class="w-10 h-10 text-gray-500 dark:text-gray-400 transition-colors duration-200"
-                  :class="tech.color"
-                />
+                  :class="tech.color" />
               </div>
             </UTooltip>
           </div>
@@ -392,23 +383,14 @@ const otherStack = [
         <!-- Other Stack -->
         <div class="flex flex-col items-center gap-6">
           <p class="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wider">
-            Other Technologies I
-            Use
+            {{ t('home.stack.other') }}
           </p>
           <div class="flex flex-wrap justify-center gap-3 lg:gap-4 max-w-4xl">
-            <UTooltip
-              v-for="tech in otherStack"
-              :key="tech.name"
-              :text="tech.name"
-            >
+            <UTooltip v-for="tech in otherStack" :key="tech.name" :text="tech.name">
               <div
-                class="flex items-center justify-center p-2.5 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50"
-              >
-                <UIcon
-                  :name="tech.icon"
-                  class="w-6 h-6 text-gray-400 dark:text-gray-500 transition-colors duration-200"
-                  :class="tech.color"
-                />
+                class="flex items-center justify-center p-2.5 rounded-xl bg-gray-50 dark:bg-gray-800/50 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 group ring-1 ring-gray-200 dark:ring-gray-800 hover:ring-primary/50 dark:hover:ring-primary/50">
+                <UIcon :name="tech.icon" class="w-6 h-6 text-gray-400 dark:text-gray-500 transition-colors duration-200"
+                  :class="tech.color" />
               </div>
             </UTooltip>
           </div>
@@ -416,59 +398,38 @@ const otherStack = [
       </div>
     </UContainer>
 
-    <UPageSection
-      :description="page.section.description"
-      :features="page.section.features"
-      orientation="horizontal"
+    <UPageSection :description="page.section.description" :features="page.section.features" orientation="horizontal"
       :ui="{
         container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10',
         features: 'gap-0'
-      }"
-      reverse
-    >
+      }" reverse>
       <template #title>
-        <span
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
-          v-html="page.section.title"
-        />
+        <span class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
+          {{ t('home.transformation.title_prefix') }} <span
+            class="text-primary">{{ t('home.transformation.title_highlight') }}</span>
+          {{ t('home.transformation.title_suffix') }}
+        </span>
       </template>
-      <img
-        :src="page.section.images.desktop"
-        alt="Journey"
-        class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
-      >
-      <img
-        :src="page.section.images.mobile"
-        alt="Journey"
-        class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
-      >
+      <img :src="page.section.images.desktop" alt="Journey" class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl">
+      <img :src="page.section.images.mobile" alt="Journey" class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl">
     </UPageSection>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
-    <UPageSection
-      id="features"
-      :description="page.features.description"
-      :features="page.features.features"
-      :ui="{
-        title: 'text-left @container relative flex',
-        description: 'text-left'
-      }"
-      class="relative overflow-hidden"
-    >
+    <UPageSection id="features" :description="page.features.description" :features="page.features.features" :ui="{
+      title: 'text-left @container relative flex',
+      description: 'text-left'
+    }" class="relative overflow-hidden">
       <div class="absolute rounded-full -left-10 top-10 size-[300px] z-10 bg-primary opacity-30 blur-[200px]" />
       <div class="absolute rounded-full -right-10 -bottom-10 size-[300px] z-10 bg-primary opacity-30 blur-[200px]" />
       <template #title>
-        <span
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
-          v-html="page.features.title"
-        />
+        <span class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
+          {{ t('home.expertise.title_prefix') }} <span
+            class="text-primary">{{ t('home.expertise.title_highlight') }}</span> {{ t('home.expertise.title_suffix') }}
+        </span>
         <div class="hidden @min-[1020px]:block">
-          <UColorModeImage
-            light="/images/light/line-2.svg"
-            dark="/images/dark/line-2.svg"
-            class="absolute top-0 right-0 size-full transform scale-95 translate-x-[70%]"
-          />
+          <UColorModeImage light="/images/light/line-2.svg" dark="/images/dark/line-2.svg"
+            class="absolute top-0 right-0 size-full transform scale-95 translate-x-[70%]" />
         </div>
       </template>
     </UPageSection>
@@ -477,57 +438,36 @@ const otherStack = [
 
     <HomeJourney id="steps" />
 
-    <UPageSection
-      id="projects"
-      class="mb-32 overflow-hidden"
-      :title="page.projects.title"
+    <UPageSection id="projects" class="mb-32 overflow-hidden" :title="page.projects.title"
       :description="page.projects.description"
-      :ui="{ title: 'text-left @container relative', description: 'text-left' }"
-    >
+      :ui="{ title: 'text-left @container relative', description: 'text-left' }">
       <template #title>
-        <span
-          class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl"
-          v-html="page.projects.title"
-        />
+        <span class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
+          {{ t('home.projects.title_prefix') }} <span
+            class="text-primary">{{ t('home.projects.title_highlight') }}</span> {{ t('home.projects.title_suffix') }}
+        </span>
 
         <div class="hidden @min-[1120px]:block">
-          <UColorModeImage
-            light="/images/light/line-4.svg"
-            dark="/images/dark/line-4.svg"
-            class="absolute top-0 right-0 size-full transform translate-x-[60%]"
-          />
+          <UColorModeImage light="/images/light/line-4.svg" dark="/images/dark/line-4.svg"
+            class="absolute top-0 right-0 size-full transform translate-x-[60%]" />
         </div>
       </template>
 
       <UPageGrid>
-        <UPageCard
-          v-for="(project, index) in page.projects.items"
-          :key="index"
-          :title="project.title"
-          :description="project.description"
-          :ui="{ header: { padding: 'p-0 sm:p-0' } }"
-        >
+        <UPageCard v-for="(project, index) in page.projects.items" :key="index" :title="project.title"
+          :description="project.description" :ui="{ header: { padding: 'p-0 sm:p-0' } }">
           <template #header>
-            <img
-              :src="project.image || '/images/projects/default.png'"
-              :alt="project.title"
-              class="w-full h-48 object-cover object-top"
-            >
+            <img :src="project.image || '/images/projects/default.png'" :alt="project.title"
+              class="w-full h-48 object-cover object-top">
           </template>
           <template #footer>
             <div class="flex flex-col gap-1 text-sm text-gray-500 dark:text-gray-400">
               <div class="flex items-center gap-2">
-                <UIcon
-                  name="i-lucide-calendar"
-                  class="w-4 h-4"
-                />
+                <UIcon name="i-lucide-calendar" class="w-4 h-4" />
                 <span>{{ project.period }}</span>
               </div>
               <div class="flex items-center gap-2">
-                <UIcon
-                  name="i-lucide-building-2"
-                  class="w-4 h-4"
-                />
+                <UIcon name="i-lucide-building-2" class="w-4 h-4" />
                 <span>{{ project.company }}</span>
               </div>
             </div>

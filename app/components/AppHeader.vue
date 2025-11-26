@@ -49,7 +49,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
     <template #right>
       <UNavigationMenu :items="items" variant="link" class="hidden lg:block" />
 
-      <UButton label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" class="hidden lg:block" />
+      <UButton :label="t('nav.contact')" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" class="hidden lg:block" />
 
       <AppLocaleSelect class="w-48" />
 
@@ -58,7 +58,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
     <template #body>
       <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
-      <UButton class="mt-4" label="Contact" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" block />
+      <UButton class="mt-4" :label="t('nav.contact')" variant="subtle" to="mailto:m.rheza.alfin@gmail.com" block />
       <AppLocaleSelect class="mt-2" />
     </template>
   </UHeader>
