@@ -126,7 +126,7 @@
         },
         "frontend": {
           "title": "Pengembangan Frontend",
-          "description": "Vue.js, Nuxt, dan Next.js untuk membangun antarmuka pengguna yang bersih dan reaktif dengan praktik terbaik JavaScript modern."
+          "description": "Vue.js dan Nuxt untuk membangun antarmuka pengguna yang bersih dan reaktif dengan praktik terbaik JavaScript modern."
         },
         "performance": {
           "title": "Optimasi Kinerja",

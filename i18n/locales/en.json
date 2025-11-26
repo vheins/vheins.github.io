@@ -126,7 +126,7 @@
         },
         "frontend": {
           "title": "Frontend Development",
-          "description": "Vue.js, Nuxt, and Next.js for building clean, reactive user interfaces with modern JavaScript best practices."
+          "description": "Vue.js and Nuxt for building clean, reactive user interfaces with modern JavaScript best practices."
         },
         "performance": {
           "title": "Performance Optimization",
