@@ -43,7 +43,6 @@ const projects = computed(() => [
     period: 'Jul 2024 - Oct 2024',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-globe',
-    image: '/images/projects/folur-web.png',
     features: [
       'Python',
       'JavaScript',
@@ -79,7 +78,7 @@ const projects = computed(() => [
     features: [
       'Drupal 9.5',
       'Health Governance',
-      'UNDP Partnership',
+      'Global Partnership',
       'Grant Management'
     ]
   },
@@ -181,7 +180,7 @@ const projects = computed(() => [
       'MySQL',
       'UIKit',
       'Grant System',
-      'UNDP Project'
+      'International Project'
     ]
   },
   {
@@ -232,7 +231,6 @@ const projects = computed(() => [
     period: 'Jun 2022 - Jul 2022',
     company: 'PT. Inovasi Dinamika Solusi',
     icon: 'i-lucide-shield-alert',
-    image: '/images/projects/undss-dashboard.png',
     features: [
       'CodeIgniter',
       'PHP',

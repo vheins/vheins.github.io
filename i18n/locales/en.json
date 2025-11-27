@@ -161,16 +161,16 @@
           "description": "Designed for PT Pesonna Optima Jasa to manage employee attendance records, utilizing technologies like DeepFace for facial recognition to ensure accurate clock-in/out procedures and generating integrated reports."
         },
         "folur": {
-          "title": "Folur Global Platform",
-          "description": "The Food Systems, Land Use, and Restoration (FOLUR) initiative aims to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across 27 countries."
+          "title": "Global Food Systems Platform",
+          "description": "A global initiative aiming to transform agricultural practices and land use to support sustainability, food security, and the restoration of agricultural lands across multiple countries."
         },
         "tekmira": {
           "title": "tekMIRA-Uji Profisiensi",
           "description": "Proficiency testing program to evaluate the performance of participant laboratories in testing coal, coal ash, laterite nickel minerals, bauxite, and iron ore, ensuring compliance with ISO 17025 standards."
         },
         "malaria": {
-          "title": "Malaria Website with Drupal 9.5",
-          "description": "Developed for UNDP HEART Program to support national efforts in addressing health inequality. Focuses on strengthening the Global Fund for AIDS, Tuberculosis and Malaria (GFATM) Country Coordinating Mechanisms."
+          "title": "Health Governance Platform",
+          "description": "Developed for a global development agency to support national efforts in addressing health inequality. Focuses on strengthening the Country Coordinating Mechanisms for major health initiatives."
         },
         "slide_babel": {
           "title": "Slide Babel - Sistem Informasi Perikanan",
@@ -197,8 +197,8 @@
           "description": "Information system dashboard for Inacookies internal use. Allows monitoring of sales data, production metrics, inventory levels, and customer feedback with real-time visualization."
         },
         "mtre3": {
-          "title": "MTRE3 Insentif Surya Atap",
-          "description": "Online platform for Roof Solar Power Incentive (PLTS Atap), provided by the Sustainable Energy Fund (SEF) under the MTRE3 project (UNDP & Govt of Indonesia)."
+          "title": "Renewable Energy Incentive Platform",
+          "description": "Online platform for Roof Solar Power Incentive, provided by a sustainable energy fund under a market transformation project for renewable energy."
         },
         "koni_dashboard": {
           "title": "Koni Jabar Dashboard",
@@ -213,8 +213,8 @@
           "description": "Comprehensive system combining e-commerce, warehousing, purchasing, and stocktaking capabilities. Streamlines operations and manages inventory for frozen food retail."
         },
         "undss": {
-          "title": "UNDSS Dashboard",
-          "description": "Bug fixing and new feature development for UNDSS Dashboard. Processes incident data into a centralized bank for spatial analysis and risk management."
+          "title": "Global Security Risk Dashboard",
+          "description": "Bug fixing and new feature development for a global security dashboard. Processes incident data into a centralized bank for spatial analysis and risk management."
         },
         "zafaa": {
           "title": "Zafaa POS",

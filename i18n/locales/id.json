@@ -161,16 +161,16 @@
           "description": "Dirancang untuk PT Pesonna Optima Jasa untuk mengelola catatan kehadiran karyawan, memanfaatkan teknologi seperti DeepFace untuk face recognition guna memastikan akurasi dan laporan terintegrasi."
         },
         "folur": {
-          "title": "Platform Global Folur",
-          "description": "Inisiatif Sistem Pangan, Penggunaan Lahan, dan Restorasi (FOLUR) bertujuan mengubah praktik pertanian dan penggunaan lahan untuk mendukung keberlanjutan dan ketahanan pangan di 27 negara."
+          "title": "Platform Sistem Pangan Global",
+          "description": "Inisiatif global untuk mengubah praktik pertanian dan penggunaan lahan guna mendukung keberlanjutan dan ketahanan pangan di berbagai negara."
         },
         "tekmira": {
           "title": "tekMIRA-Uji Profisiensi",
           "description": "Program uji profisiensi untuk mengevaluasi kinerja laboratorium peserta dalam pengujian batubara dan mineral, memastikan kepatuhan terhadap standar ISO 17025."
         },
         "malaria": {
-          "title": "Website Malaria dengan Drupal 9.5",
-          "description": "Dikembangkan untuk Program HEART UNDP untuk mendukung upaya nasional mengatasi ketimpangan kesehatan. Fokus pada penguatan Mekanisme Koordinasi Negara Global Fund untuk AIDS, TBC, dan Malaria."
+          "title": "Platform Tata Kelola Kesehatan",
+          "description": "Dikembangkan untuk sebuah lembaga pembangunan global guna mendukung upaya nasional mengatasi ketimpangan kesehatan. Fokus pada penguatan Mekanisme Koordinasi Negara untuk inisiatif kesehatan utama."
         },
         "slide_babel": {
           "title": "Slide Babel - Sistem Informasi Perikanan",
@@ -197,8 +197,8 @@
           "description": "Dashboard sistem informasi untuk internal Inacookies. Memantau data penjualan, produksi, stok, dan feedback pelanggan secara real-time."
         },
         "mtre3": {
-          "title": "MTRE3 Insentif Surya Atap",
-          "description": "Platform online untuk aplikasi hibah Insentif Listrik Surya Atap (PLTS Atap), disediakan oleh Sustainable Energy Fund (SEF) di bawah proyek MTRE3."
+          "title": "Platform Insentif Energi Terbarukan",
+          "description": "Platform online untuk aplikasi hibah insentif energi terbarukan, disediakan oleh dana energi berkelanjutan di bawah proyek transformasi pasar energi."
         },
         "koni_dashboard": {
           "title": "Dashboard Koni Jabar",
@@ -213,8 +213,8 @@
           "description": "Sistem komprehensif yang menggabungkan e-commerce, warehousing, purchasing, dan stock opname. Merampingkan operasional ritel makanan beku."
         },
         "undss": {
-          "title": "Dashboard UNDSS",
-          "description": "Bug fixing dan pengembangan fitur baru untuk Dashboard UNDSS. Memproses data insiden menjadi bank terpusat untuk analisis spasial dan manajemen risiko."
+          "title": "Dashboard Manajemen Risiko Keamanan",
+          "description": "Bug fixing dan pengembangan fitur baru untuk Dashboard Manajemen Risiko Keamanan. Memproses data insiden terpusat untuk analisis spasial dan manajemen risiko."
         },
         "zafaa": {
           "title": "Zafaa POS",

@@ -163,7 +163,6 @@ const page = computed(() => ({
         period: 'Jul 2024 - Oct 2024',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-globe',
-        image: '/images/projects/folur-web.png'
       },
       {
         title: t('home.projects.items.tekmira.title'),
@@ -265,7 +264,6 @@ const page = computed(() => ({
         period: 'Jun 2022 - Jul 2022',
         company: 'PT. Inovasi Dinamika Solusi',
         icon: 'i-lucide-shield-alert',
-        image: '/images/projects/undss-dashboard.png'
       },
       {
         title: t('home.projects.items.zafaa.title'),
