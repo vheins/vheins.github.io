@@ -298,10 +298,7 @@ useSeoMeta({
   title: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
   ogTitle: 'Muhammad Rheza Alfin - Full-stack Developer & IT Consultant',
   description: page.value.description,
-  ogDescription: page.value.description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterCard: 'summary_large_image'
+  ogDescription: page.value.description
 })
 
 const favoriteStack = [
