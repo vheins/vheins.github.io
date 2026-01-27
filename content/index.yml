@@ -1,150 +1,146 @@
 seo:
-  title: Vheins - Full-stack Developer & Team Lead
-  description: From retail operations to cloud servers - building scalable solutions with Laravel, Vue.js, and modern DevOps practices.
-title: From Retail Floors to [Cloud Servers]{.text-primary}
-description: Full-stack Developer & Team Lead specializing in Laravel, Vue.js, and scalable architectures. I combine business operations knowledge with technology to deliver solutions that improve real-world processes.
+  title: Vheins - Enterprise Digital Solutions
+  description: Premier technology partner for ERP systems, SaaS platforms, and AI automation. We build scalable solutions for modern enterprises.
 hero:
+  title: Building Scalable [Digital Solutions]{.text-primary}
+  description: We are a technology consultancy specializing in ERP development, Cloud Infrastructure, and AI-driven automation. We transform business operations into efficient digital ecosystems.
   links:
-    - label: View Projects
-      icon: i-lucide-folder-git-2
+    - label: Our Services
+      icon: i-lucide-arrow-right
       trailing: true
       color: primary
-      to: '#projects'
+      to: '#services'
       size: xl
-    - label: GitHub
-      icon: i-simple-icons-github
+    - label: Business Inquiry
+      icon: i-lucide-mail
       size: xl
       color: neutral
       variant: outline
-      to: https://github.com/vheins
-      target: _blank
+      to: '#contact'
 section:
-  title: 'A Journey of [Transformation]{.text-primary}'
-  description: Nearly a decade in retail operations taught me to think analytically, pay attention to detail, and focus on preventing errors and inefficiencies. Today, I apply these same principles to software development.
-  images:
-    mobile: '/images/macbook-mobile.svg'
-    desktop: '/images/macbook.svg'
+  title: 'Our [Philosophy]{.text-primary}'
+  description: We believe in engineering excellence and operational efficiency. Our mission is to empower businesses with technology that solves real-world problems.
   features:
-    - title: Analytical Thinking
-      description: Trained through years of investigating irregularities and operational misuse at Indomaret Group. I approach every problem systematically, identifying root causes and implementing preventive solutions.
+    - title: Strategic Innovation
+      description: We analyze your business processes to identify bottlenecks and implement strategic digital solutions that drive growth.
       class: border-l border-primary pl-4
-    - title: Attention to Detail
-      description: From managing inventory accuracy across multiple stores to writing clean, maintainable code - precision matters. Every line of code, every configuration, every deployment is carefully considered.
+    - title: Precision Engineering
+      description: Our team adheres to strict quality standards, ensuring every line of code serves a purpose and every system is built for stability.
       class: border-l border-default pt-4 pl-4
-    - title: Process Improvement
-      description: Whether optimizing stock reporting workflows or architecting scalable systems, I'm driven by efficiency. I believe technology should solve real problems and improve real processes.
+    - title: Scalable Architecture
+      description: We design systems that grow with your business, utilizing modern cloud infrastructure and microservices patterns.
       class: border-l border-default pt-4 pl-4
 features:
-  title: Technical [Expertise]{.text-primary}
-  description: Building modern, scalable solutions with a focus on performance, maintainability, and real-world impact.
+  title: Our [Capabilities]{.text-primary}
+  description: Comprehensive technology services designed for enterprise needs.
   features:
-    - title: Backend Development
-      description: Laravel framework with PostgreSQL, MySQL, and Redis for robust, high-performance applications.
-      icon: i-lucide-server
+    - title: ERP System Development
+      description: Custom ERP solutions integrated with Odoo to streamline your business operations.
+      icon: i-lucide-database
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Frontend Development
-      description: Vue.js for building clean, reactive user interfaces with modern JavaScript best practices.
-      icon: i-lucide-layout-dashboard
+    - title: SaaS Platform Engineering
+      description: End-to-end development of scalable Software-as-a-Service platforms.
+      icon: i-lucide-layout-grid
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Performance Optimization
-      description: Leveraging Soketi, Octane, and Redis for real-time features and blazing-fast response times.
-      icon: i-lucide-zap
+    - title: AI & Automation
+      description: Intelligent process automation and machine learning integration for data-driven insights.
+      icon: i-lucide-bot
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: DevOps & Infrastructure
-      description: Docker, Nginx, Kong, HAProxy, and Patroni for scalable, reliable deployments and high availability.
+    - title: Cloud Infrastructure
+      description: Robust DevOps solutions using Docker, Kubernetes, and high-availability architecture.
       icon: i-lucide-cloud
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Enterprise Integration
-      description: ERP systems integration with Odoo, building bridges between business operations and technology.
-      icon: i-lucide-workflow
+    - title: API Integration
+      description: Seamless operational connectivity between your disparate business systems.
+      icon: i-lucide-network
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
-    - title: Team Leadership
-      description: Leading development teams, mentoring developers, and fostering a culture of continuous learning and excellence.
+    - title: Technology Consulting
+      description: Strategic guidance on technology stack selection, architecture, and digital transformation.
       icon: i-lucide-users
       ui:
         leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
 steps:
-  title: My [Journey]{.text-primary}
-  description: From inventory control to cloud infrastructure - every step has built who I am today.
+  title: Our [Trajection]{.text-primary}
+  description: A history of delivering excellence in technology and operations.
   items:
-    - title: Indomaret Group (2011-2021)
-      description: Nearly a decade growing from Inventory Control Clerk to Supervisor. Managed stock, reporting accuracy, and logistics across multiple stores while investigating operational irregularities. This experience shaped my analytical mindset and attention to detail.
+    - title: Operational Foundation
+      description: Rooted in enterprise retail operations, we understand the complexities of logistics, inventory, and supply chain management at scale.
       image:
         light: '/images/light/connect.svg'
         dark: '/images/dark/connect.svg'
-    - title: Transition to Tech (2021)
-      description: Made the leap into software development, carrying forward the same principles of efficiency, accuracy, and process improvement. Embraced the challenge of learning new technologies and applying operational knowledge to code.
+    - title: Technological Evolution
+      description: Transitioning to full-stack development, we bridged the gap between operational needs and technical possibilities.
       image:
         light: '/images/light/optimize.svg'
         dark: '/images/dark/optimize.svg'
-    - title: Full-stack Developer & Team Lead (Present)
-      description: Building enterprise solutions with Laravel and Vue.js, leading development teams, and creating AI-driven applications. From ERP integrations to scalable cloud deployments - combining business operations knowledge with cutting-edge technology.
+    - title: Enterprise Solutions Partner (Present)
+      description: Today, we serve diverse industries by delivering robust, high-performance software solutions that power mission-critical processes.
       image:
         light: '/images/light/track.svg'
         dark: '/images/dark/track.svg'
 projects:
-  title: Featured [Projects]{.text-primary}
-  description: A selection of projects showcasing enterprise solutions, integrations, and innovative applications.
+  title: Client [Success Stories]{.text-primary}
+  description: How we have helped businesses achieve their digital transformation goals.
   plans:
-    - title: ERP Integration Platform
-      description: Seamless integration with Odoo ERP system for enterprise resource planning.
-      price: Enterprise
+    - title: Enterprise ERP Integration
+      description: A unified resource planning system for a large-scale logistics company.
+      price: Retail & Logistics
       features:
-        - Laravel backend with PostgreSQL database
-        - Real-time data synchronization with Soketi
-        - Vue.js dashboard for monitoring and control
-        - Docker containerization for easy deployment
-        - RESTful API with comprehensive documentation
-        - Automated testing and CI/CD pipeline
+        - Custom Odoo Module Development
+        - Real-time Inventory Sync
+        - Automated Financial Reporting
+        - Multi-warehouse Management
+        - Automated Workflow Triggers
+        - Comprehensive User Access Control
       button:
-        label: View Details
+        label: View Case Study
         color: neutral
         variant: outline
         to: '#'
-    - title: AI-Driven Dashboard
-      description: Intelligent analytics platform with AI-powered insights and predictions.
-      price: Innovation
+    - title: AI Analytics Platform
+      description: Predictive analytics dashboard for a fintech startup.
+      price: Fintech
       highlight: true
       features:
-        - Laravel Octane for high-performance API
-        - Vue.js with real-time data visualization
-        - Redis caching for optimal performance
-        - PostgreSQL with advanced analytics queries
-        - Machine learning integration
-        - Responsive design for all devices
+        - Real-time Fraud Detection
+        - User Behavior Analysis
+        - Predictive Financial Modeling
+        - High-frequency Data Processing
+        - Machine Learning Pipeline
+        - Interactive Visualization
       button:
-        label: View Details
+        label: View Case Study
         variant: subtle
         to: '#'
-    - title: Scalable Infrastructure
-      description: High-availability deployment architecture for mission-critical applications.
-      price: DevOps
+    - title: High-Availability Cloud
+      description: Infrastructure modernization for a growing SaaS provider.
+      price: SaaS
       features:
-        - Docker containerization and orchestration
-        - Nginx reverse proxy with load balancing
-        - Kong API gateway for microservices
-        - HAProxy for high availability
-        - Patroni for PostgreSQL clustering
-        - Automated monitoring and alerting
+        - Zero-downtime Deployment
+        - Auto-scaling Kubernetes Cluster
+        - Global Content Delivery Network
+        - Database Replication & Failover
+        - Infrastructure as Code (IaC)
+        - 24/7 Monitoring & Alerting
       button:
-        label: View Details
+        label: View Case Study
         color: neutral
         variant: outline
         to: '#'
 cta:
-  title: Let's Build Something [Together]{.text-primary}
-  description: I believe in taking risks, conquering fear, and continuously learning. Whether you have a project in mind or just want to connect, I'd love to hear from you.
+  title: Partner With [Us]{.text-primary}
+  description: Ready to transform your business? Let's discuss how our technology solutions can drive your success.
   links:
-    - label: Get in Touch
-      to: 'mailto:your.email@example.com'
+    - label: Contact Us
+      to: 'mailto:inquiry@vheins.com'
       trailingIcon: i-lucide-mail
-    - label: View GitHub
-      to: 'https://github.com/vheins'
+    - label: Schedule Consultation
+      to: '#'
       target: _blank
       variant: subtle
-      icon: i-simple-icons-github
+      icon: i-lucide-calendar

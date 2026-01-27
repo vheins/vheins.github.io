@@ -1,21 +1,20 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
+// Hardcoded corporate CTA to ensure consistency
 const cta = computed(() => ({
-  title: t('cta.title'),
-  description: t('cta.description'),
+  title: 'Partner With Us',
+  description: 'Ready to transform your business? Let\'s discuss how our technology solutions can drive your success.',
   links: [
     {
-      label: t('cta.getInTouch'),
-      to: 'mailto:m.rheza.alfin@gmail.com',
+      label: 'Contact Us',
+      to: 'mailto:inquiry@vheins.com',
       trailingIcon: 'i-lucide-mail'
     },
     {
-      label: t('cta.viewGithub'),
-      to: 'https://github.com/vheins',
+      label: 'Schedule Consultation',
+      to: '#',
       target: '_blank',
       variant: 'subtle',
-      icon: 'i-simple-icons-github'
+      icon: 'i-lucide-calendar'
     }
   ]
 }))
@@ -27,8 +26,7 @@ const cta = computed(() => ({
     <UPageCTA v-bind="cta" variant="naked" class="overflow-hidden @container">
       <template #title>
         <span class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
-          {{ t('cta.title_prefix') }} <span class="text-primary">{{ t('cta.title_highlight') }}</span>
-          {{ t('cta.title_suffix') }}
+          Partner With <span class="text-primary">Us</span>
         </span>
 
         <div class="@max-[1280px]:hidden">
